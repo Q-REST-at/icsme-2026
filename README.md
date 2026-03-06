@@ -25,7 +25,7 @@ The study compares LLM quantization methods across multiple datasets and repeate
 | Dimension     | Values                              |
 |---------------|-------------------------------------|
 | Model         | MIS (single model)                  |
-| Quantization  | `NONE`, `AWQ`, `GPTQ`, `AQLM`, `COSINE` (baseline) |
+| Quantization  | `NONE`, `AWQ`, `GPTQ`, `AQLM` |
 | Datasets      | `AMINA`, `BTHS`, `HW`, `MOZILLA`   |
 | Iterations    | 10 per treatment                    |
 | RQ1 metrics   | `balanced_accuracy`, `recall`, `precision`, `f1` |
@@ -39,24 +39,23 @@ Treatment names follow the convention `{MODEL}_{QUANTIZATION}_{DATASET}` (e.g., 
 ../res/  (raw JSON experiment output)
     |
     v
-data_analysis.ipynb  (via analysis_utils.py)
+data_preprocessing.ipynb  (via analysis_utils.py)
     - Loads JSON files from nested res/ directory
     - Flattens GPU/VRAM nested fields
     - Converts to long/tidy format
-    - Checks ANOVA normality assumptions (Shapiro-Wilk)
     - Exports tidy CSVs
     |
     v
-data/{BASE_prompt,PT6_prompt}/*.csv
+data/PT6_prompt/*.csv
     |
-    +-----> analysis_pipeline.R       --> results/{BASE,PT6}/*_post-hoc_results-*.csv
+    +-----> analysis_pipeline.R       --> results/PT6/*_post-hoc_results-*.csv
     |           (Friedman + Wilcoxon + VDA)
     |
     +-----> plotting.r                --> results/*.pdf
     |           (ggplot2 bar + box plots)
     |
     +-----> create_full_results_csv.r --> results/full_summary_table.csv
-                (joins RQ1 + RQ2 + COSINE baseline)
+                (joins RQ1 + RQ2)
 ```
 
 ## Key Files
@@ -74,7 +73,7 @@ USE_RQ1 = TRUE   # TRUE -> RQ1 (efficacy), FALSE -> RQ2 (efficiency)
 2. **Variance filtering** — removes quantization groups with zero variance before post-hoc testing.
 3. **Pairwise Wilcoxon signed-rank test** — paired, with Holm-Bonferroni correction for multiple comparisons.
 4. **Paired VDA effect size** — custom implementation of the Vargha-Delaney A measure for paired/repeated-measures data (no existing R package covers this case). Magnitude labels: `Negligible / Small / Medium / Large`.
-5. **Output** — writes combined post-hoc + effect size results to `results/{BASE,PT6}/rq{1,2}_post-hoc_results-*.csv`.
+5. **Output** — writes combined post-hoc + effect size results to `results/PT6/rq{1,2}_post-hoc_results-*.csv`.
 
 > Note: A deprecated Wilcoxon-r effect size implementation is preserved at the
 > bottom of the file inside `if (FALSE) { ... }` and does not execute.
@@ -85,7 +84,6 @@ Generates publication-ready PDFs using `ggplot2`. Toggle flags at the top:
 
 ```r
 USE_RQ1 = TRUE
-INCLUDE_COSINE = TRUE  # adds COSINE baseline data to RQ1 plots
 ```
 
 Produces:
@@ -97,8 +95,7 @@ A named colour palette is defined at the top (`CUSTOM_PALLETE`) — edit it here
 
 ### `create_full_results_csv.r` — Summary Table Builder
 
-Joins RQ1 and RQ2 data frames (including the COSINE baseline, whose RQ2 values
-are manually imputed since they are absent from the raw CSVs) and writes
+Joins RQ1 and RQ2 data frames and writes
 `results/full_summary_table.csv` with `mean` and `SD` per `(quantization,
 dataset, metric)`.
 
@@ -112,32 +109,28 @@ Provides two public functions used by both notebooks:
   - `raw_metric_data` — raw metric values including the `population` array (excluded from summary df)
 - **`save_dataframe_to_csv(df, dest_path, filename, overwrite=False)`** — safe CSV writer; raises `FileExistsError` if the file exists and `overwrite=False`.
 
-### `data_analysis.ipynb` — Preprocessing Notebook
+### `data_preprocessing.ipynb` — Preprocessing Notebook
 
 - Loads raw experiment data via `analysis_utils.load_experiment_data()`.
 - Flattens nested `GPU` and `VRAM` JSON columns into scalar columns.
 - Converts wide data to tidy/long format, separated by RQ.
-- Runs **Shapiro-Wilk normality tests** per treatment per metric (results indicated normality violations, motivating the Friedman non-parametric approach in R).
 - Exports the tidy CSVs to `data/`. The export cells are currently commented out or selectively enabled — check before re-running.
-
-> The Friedman test implementation at the bottom of this notebook is marked **DEPRECATED**; statistical analysis moved entirely to `analysis_pipeline.R`.
 
 ### `data_visualization.ipynb` — Visualization Notebook
 
 - Loads the same `../res/` data.
 - Plots efficacy metrics vs. sample size (line plots) across models and datasets — useful for understanding how performance scales.
-- `create_mvp_table_df()` builds a `(mean ± SD)` summary table from the session dictionaries.
-- Several `plot_table_*` helpers (highlight max/min per group, metric-direction-aware highlighting) render coloured comparison tables via `matplotlib`.
-- Includes a LaTeX export of the summary table.
-
-> Some cells have known failures (missing GPU/VRAM columns in certain data versions) — these are non-blocking for the R pipeline.
 
 ## Reproduce Results
 
 This section describes required steps to *reproduce* results from the paper.
-Follow each step carefully.
+Follow each step carefully. 
 
-TODO: add steps to reproduce the results
+1. Run the `eval_iteration.py` script. This generates the `res/` folder output.
+2. Run the `data_preprocessing.ipynb` notebook. This creates tidy `.csv`-files for statistical analysis.
+3. Open the `analysis/` directory as a project in RStudio.
+4. Run `analysis_pipeline.R` to execute the statistical analysis. The flag `USE_RQ1` can be used to swap between outputting RQ1 and RQ2 results.
+5. Run `plotting.r` to create the graphs. The flag `USE_RQ1` can be used to swap between outputting RQ1 and RQ2 graphs.
 
 ## Appendix
 
