@@ -1,4 +1,0 @@
-ID,Purpose,Test steps
-26,Synchronization with ENCO Controlled NTP,Set the wrong time on the meter. Sync the meter with the system. Controll that server web01 is configured to synchronize time with time server.
-16,Encrypted login,Verify that the login is encrypted in CM. Verify that the login is encrypted in Vision. Verify that the login is encrypted in Vision Audit. Verify that the login is encrypted in Omnia Flex
-145,Structural data in HES,Verify that it is possible to manually register structure data in HES.

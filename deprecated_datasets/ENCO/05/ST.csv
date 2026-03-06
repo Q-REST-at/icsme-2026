@@ -1,4 +1,0 @@
-ID,Purpose,Test steps
-437,Unique manufacturing number- communication module- Kat1,Verify that the unique manufacturing number is present on the Measurement Unit Communication Module.
-439,Unique manufacturing number - communication module – Kat2,Verify that the unique manufacturing number is present on the Measurement Unit Communication Module.
-145,Structural data in HES,Verify that it is possible to manually register structure data in HES.

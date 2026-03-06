@@ -1,6 +1,0 @@
-ID,Feature,Description
-S163,Request for further confirmation,Commands initiated by the user in HES that may have serious consequences if improperly handled (e.g. deleting stored measurement and structure data and switching power on and off) should (S163) require additional confirmation before they are executed.
-B89,Request further confirmation,Commands that the user initiates in HES and that may have serious consequences if improperly handled (e.g. deletion of stored measurement and structural data and switching off power) should require additional confirmation before they are performed. All other command should be executed directly.
-S130,Dynamic fields,The fields in HES (S130) should be dynamic and adapted to the information that will be displayed to the user (linked to requirement S131).
-S131,The field shows all numbers,"For example, if the field can contain 18 positions with digits, then (S131) all digits should be visible to the User (no hidden parts)."
-B7,Communication metadata to be delivered continuously,Communication method data (15-minute values) should be delivered continuously from the communication equipment to HES.

@@ -1,8 +1,0 @@
-ID,Feature,Description
-S63,Upgrade from HES,Software in the meter (except metrological software) and communication device should be upgradeable from HES.
-B7,Communication metadata to be delivered continuously,Communication method data (15-minute values) should be delivered continuously from the communication equipment to HES.
-S82,1-phase and 3-phase measurement should meet the Metering Parameters according to MID,"1-phase and 3-phase measurement should (S82) meet the meter parameters according to MID:
-- Class index = B (or better)
-- Minimum current (Imin) = 0.25 A (or lower)
-- Reference current (In) = 5 A
-- Maximum current (Imax) = 85 A (or higher) (including circuit breaker function)"

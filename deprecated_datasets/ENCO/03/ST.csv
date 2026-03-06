@@ -1,8 +1,0 @@
-ID,Purpose,Test steps
-376,Upgrade from HES,Verify that the software in the meter (except metrological software) and the communication unit can be upgraded from HES.
-371,Communication metadata should continuously be delivered,Verify that communication metadata is logged every other hour in the Measurement Unit. Verify that communication metadata is sent to HES at least once per day
-428,1-phase and 3-phase measurement should meet the Metering Parameters according to MID.,"Verify that 1-phase and 3-phase measurement meet the meter parameters according to MID:
-- Class index = B (or better). Verify that 1-phase and 3-phase measurement meet the meter parameters according to MID:
-- Minimum current (Imin) = 0.25 A (or lower). Verify that 1-phase and 3-phase measurement meet the meter parameters according to MID:
-- Reference current (In) = 5 A. Verify that 1-phase and 3-phase measurement meet the meter parameters according to MID:
-- Maximum current (Imax) = 85 A (or higher) (including circuit breaker function)."

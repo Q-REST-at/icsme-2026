@@ -1,4 +1,0 @@
-ID,Purpose,Test steps
-273,Demand additional confinrmation,Verify that commands that may have serious consequences if mis-managed (e.g. deleting stored measurement and structural data and switching power on and off) require additional confirmation before they are performed. Verify that commands that do not have serious consequences do not require additional confirmation before execution.
-210,Dynamic fields,Verify that the fields in the HES fields are dynamic and adapted for the information that will be displayed to the User.
-371,Communication metadata should continuously be delivered,Verify that communication metadata is logged every other hour in the Measurement Unit. Verify that communication metadata is sent to HES at least once per day

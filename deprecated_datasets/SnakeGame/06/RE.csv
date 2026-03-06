@@ -1,4 +1,0 @@
-ID,Feature,Description
-SG-02,Game Objective,The primary objective of the game shall be to eat items (usually represented as fruits or dots) that appear at random positions on the grid. Each item eaten makes the snake longer.
-SG-03,Game Over Condition,The game shall end (Game Over) if the snake collides with the grid boundaries or itself
-SG-10,High Score Memory,The game shall remember the highest score achieved across sessions

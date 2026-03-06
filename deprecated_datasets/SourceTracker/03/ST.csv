@@ -1,9 +1,0 @@
-ID,Purpose,Test steps
-T-4,,"1 - The user must enter the bar code of the source being returned using the barcode scanner.
-2 – It must be verified that the source is currently removed from its home repository.
-3 – A return must be performed at the home repository.
-4 – The database must update the source location to its home repository."
-T-13,,"1 – The Custodian must enter his/her Z number using the barcode scanner and must be an authorized Nuclear Material Custodian.
-2 – The information for each source must include bar code number, source ID, isotope, initial activity date, initial mass value, initial activity, activity from mass, difference between initial and current activity (as a percentage), current activity, home repository (storage location), current location, current owner, last leak test (last swipe) (date and time), last inventory (date and time), and MAR contribution (as a percentage).
-3 – The csv file must be emailed to the Custodian and a message must be displayed confirming that the file was sent to the Custodian."
-T-16,,"1 – If leak testing is past due, there must be a warning message displayed indicating that the leak testing is out of date.  The source may still be transferred if the leak testing is out of date. "

@@ -1,5 +1,0 @@
-ID,Feature,Description
-S117,50 simultaneous users,HES in the production environment should (S117) be dimensioned for at least 50 simultaneous users without impairing the performance of the measurement system.
-S217,Parallel calls,HES should (S217) be designed to handle parallel requests.
-S202,The client's/buyer’s licenses,Report which licenses the client will (S202) acquire if the case arises.
-S115,Import Measurement data,"It shall (S115) be possible to import measurement data from a standardized text file format, for example csv."

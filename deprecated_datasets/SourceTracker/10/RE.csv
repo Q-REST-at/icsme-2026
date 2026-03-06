@@ -1,4 +1,0 @@
-ID,Feature,Description
-SR4,Return Source to Home Repository,A capability must be provided to return a source that has been removed from its home repository back to its home repository.
-SR8,Display Category 3 MAR Status for each of the Radiation Facilities ,A capability must be provided to display Category 3 MAR status for each building. 
-SR11,Sample Source Transaction,"A capability must be added to perform a test source transaction to determine whether the transaction would exceed MAR, physical security, fuel rod or criticality limits."

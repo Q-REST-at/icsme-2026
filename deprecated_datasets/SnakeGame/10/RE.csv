@@ -1,4 +1,0 @@
-ID,Feature,Description
-SG-03,Game Over Condition,The game shall end (Game Over) if the snake collides with the grid boundaries or itself
-SG-04,Score System,The game shall keep track of the player's score. The score shall increase by a fixed amount each time the snake eats an item
-SG-08,Pause and Resume,The game shall allow the player to pause and resume the game

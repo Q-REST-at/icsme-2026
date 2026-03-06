@@ -1,4 +1,0 @@
-ID,Purpose,Test steps
-3,Game Objective,"1. Start the game.,2. Confirm that items (fruits or dots) appear at random positions on the grid.,3. Move the snake to eat an item.,4. Verify that the snake becomes longer after eating the item."
-5,Score System,"1. Start the game.,2. Eat an item and check if the score increases by the expected amount.,3. Eat multiple items and verify that the score accumulates correctly."
-8,Sound Effects,"1. Start the game.,2. Eat an item and verify that a sound effect plays.,3. Trigger a Game Over condition and verify that a sound effect plays."

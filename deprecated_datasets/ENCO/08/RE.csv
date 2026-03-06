@@ -1,5 +1,0 @@
-ID,Feature,Description
-S5,Recording of power failure,"The measurement system should (S5) record all power outages (in 1-, 2- or 3-phases) in a measurement unit that is longer than 3 minutes."
-S130,Dynamic fields,The fields in HES (S130) should be dynamic and adapted to the information that will be displayed to the user (linked to requirement S131).
-S131,The field shows all numbers,"For example, if the field can contain 18 positions with digits, then (S131) all digits should be visible to the User (no hidden parts)."
-B73,Filtering and sorting in the alarm list,A user should (B73) have the ability to filter and sort the alarm list.

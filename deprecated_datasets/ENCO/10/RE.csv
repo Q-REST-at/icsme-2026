@@ -1,4 +1,0 @@
-ID,Feature,Description
-S63,Upgrade from HES,Software in the meter (except metrological software) and communication device should be upgradeable from HES.
-S95,Retrieval of Missing Measurements,HES should (S95) contain functionality for automatic and manual retrieval of missing Measurement Values.
-S115,Import Measurement data,"It shall (S115) be possible to import measurement data from a standardized text file format, for example csv."

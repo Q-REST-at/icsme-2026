@@ -1,4 +1,0 @@
-ID,Feature,Description
-SR3,Remove source from home repository ,A capability must be provided for a user to remove a source from its home repository.  
-SR11,Sample Source Transaction,"A capability must be added to perform a test source transaction to determine whether the transaction would exceed MAR, physical security, fuel rod or criticality limits."
-SR17,Verify leak testing,"Before a transfer is made of a source from one location to another, the leak testing status of that source must be checked to see if the leak testing is out of date or not. Note: leak test parameters are specified in ISD 121-1.1."

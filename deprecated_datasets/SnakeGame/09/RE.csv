@@ -1,4 +1,0 @@
-ID,Feature,Description
-SG-02,Game Objective,The primary objective of the game shall be to eat items (usually represented as fruits or dots) that appear at random positions on the grid. Each item eaten makes the snake longer.
-SG-09,Restart Game,The player shall have the option to restart the game after a game over
-SG-11,Responsiveness and Compatibility,The game shall be responsive and compatible with various devices and screen sizes

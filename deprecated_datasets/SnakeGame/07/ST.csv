@@ -1,5 +1,0 @@
-ID,Purpose,Test steps
-1,Basic Gameplay Mechanism - Part 1,"1. Start the game.,2. Press the left arrow key and check if the snake moves left.,3. Press the right arrow key and check if the snake moves right.,4. Press the up arrow key and check if the snake moves up.,5. Press the down arrow key and check if the snake moves down."
-2,Basic Gameplay Mechanism - Part 2,"1. Start the game.,2. Press the corresponding keys (e.g., A for left, D for right, W for up, S for down) and check if the snake moves in the expected directions."
-3,Game Objective,"1. Start the game.,2. Confirm that items (fruits or dots) appear at random positions on the grid.,3. Move the snake to eat an item.,4. Verify that the snake becomes longer after eating the item."
-11,Responsiveness and Compatibility,"1. Play the game on different devices (e.g., desktop, mobile, tablet).,2. Test the game on various screen sizes and orientations.,3. Ensure that the game adapts and functions correctly on different platforms."

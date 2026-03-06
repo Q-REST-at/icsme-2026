@@ -1,4 +1,0 @@
-ID,Feature,Description
-SR4,Return Source to Home Repository,A capability must be provided to return a source that has been removed from its home repository back to its home repository.
-SR14,Create a summary csv file of all sources ,"A capability must be provided to write summary information about all sources in the database into a formatted file and saved in a user-defined directory, or emailed."
-SR17,Verify leak testing,"Before a transfer is made of a source from one location to another, the leak testing status of that source must be checked to see if the leak testing is out of date or not. Note: leak test parameters are specified in ISD 121-1.1."

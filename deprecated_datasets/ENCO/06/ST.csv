@@ -1,5 +1,0 @@
-ID,Purpose,Test steps
-463,Terminal block lids - Kat1,Verify that the measuring unit has terminal blocks covering the connection cable.
-464,Terminal block lids - Kat2,Verify that the measuring unit has terminal blocks covering the connection cable.
-366,98.0 %  to HES 4h after day-shift,Verify that there are routines that describe that we continuously receive reports that demonstrate that 98.0% of the energy values are collected to HES within 4 hours after the daily shift.
-652,Control Equipment,"Test Equipment Verify that test equipment, when included in the Measurement System, is subject to security requirements in the same manner as other equipment"

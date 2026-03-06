@@ -1,4 +1,0 @@
-ID,Feature,Description
-SR12,Confirm inventory,A capability must be provided to confirm source inventory.  Note: An inventory of all registered sources is required by the Department of Energy (DOE) every six months. 
-SR17,Verify leak testing,"Before a transfer is made of a source from one location to another, the leak testing status of that source must be checked to see if the leak testing is out of date or not. Note: leak test parameters are specified in ISD 121-1.1."
-SR20,Time-out timers,"A time-out timer must be provided for each transaction such that if the user does not complete a transaction within a time limit, the transaction is cancelled and the screen returns to the main menu.  Note: this is needed so that a user or Custodian doesn’t accidentally enter their Z number and leave the computer open for anyone (unauthorized people) to make changes."

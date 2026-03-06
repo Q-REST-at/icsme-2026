@@ -1,4 +1,0 @@
-ID,Feature,Description
-SG-01,Basic Gameplay Mechanism,"The game shall feature a snake that moves in a 2D grid. The snake can move left, right, up, and down. The movement is controlled by the player using keyboard arrow keys or equivalent input methods"
-SG-04,Score System,The game shall keep track of the player's score. The score shall increase by a fixed amount each time the snake eats an item
-SG-08,Pause and Resume,The game shall allow the player to pause and resume the game

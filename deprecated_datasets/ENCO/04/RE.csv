@@ -1,4 +1,0 @@
-ID,Feature,Description
-S5,Recording of power failure,"The measurement system should (S5) record all power outages (in 1-, 2- or 3-phases) in a measurement unit that is longer than 3 minutes."
-S63,Upgrade from HES,Software in the meter (except metrological software) and communication device should be upgradeable from HES.
-S102,Reports based on status,The report should be able to extract status-marked data from HES (S102) and present it in a way that makes it easy to understand. Example all measure data with specfic status

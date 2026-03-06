@@ -1,5 +1,0 @@
-ID,Feature,Description
-S232,UTC time with NTP sync,"The measurement system and surrounding infrastructure shall (S232) use UTC as source for time, including synchronization with NTP."
-B113,Synchronization with ENCO controlled NTP,The measurement system and the surrounding infrastructure that is within ENCO's network should (B113) be synchronized with ENCO controlled NTP.
-S226,Encrypted login,Login should (S226) be encrypted.
-S93,Structural data in HES,A user should be able to (S93) manually register structural data in HES.

@@ -1,4 +1,0 @@
-ID,Feature,Description
-SR8,Display Category 3 MAR Status for each of the Radiation Facilities ,A capability must be provided to display Category 3 MAR status for each building. 
-SR10,Display Criticality and Fuel Rod Status for each of the Radiation Facilities,A capability must be provided to display criticality status for each building. 
-SR14,Create a summary csv file of all sources ,"A capability must be provided to write summary information about all sources in the database into a formatted file and saved in a user-defined directory, or emailed."

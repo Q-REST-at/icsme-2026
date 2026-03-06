@@ -1,3 +1,0 @@
-ID,Purpose,Test steps
-6,Level of Difficulty,"1. Start the game.,2. Observe the initial speed of the snake.,3. Eat items to make the snake longer and observe if the speed increases.,4. Verify that the game becomes more challenging as the snake grows."
-8,Sound Effects,"1. Start the game.,2. Eat an item and verify that a sound effect plays.,3. Trigger a Game Over condition and verify that a sound effect plays."

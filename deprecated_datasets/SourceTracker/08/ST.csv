@@ -1,8 +1,0 @@
-ID,Purpose,Test steps
-T-8,,"1 – The user must enter his/her Z number using the barcode scanner and must be an authorized user.
-2 – The MAR levels for each building must be calculated and displayed as percentages of allowable limits.  For each building, the checked-out RAD can totals, and the total of those values will be displayed.  Note: A quick way for a user to display all MAR sources for a building should be provided."
-T-10,,"1 – The user must enter his/her Z number using the barcode scanner and must be an authorized user.
-2 – The total grams of material contributing to the criticality limit for each building must be calculated and displayed along with the building’s criticality limit.  For each building, the number of fuel rods currently at the building must also be displayed (if applicable) along with the limit for the number of fuel rods allowed at that building."
-T-13,,"1 – The Custodian must enter his/her Z number using the barcode scanner and must be an authorized Nuclear Material Custodian.
-2 – The information for each source must include bar code number, source ID, isotope, initial activity date, initial mass value, initial activity, activity from mass, difference between initial and current activity (as a percentage), current activity, home repository (storage location), current location, current owner, last leak test (last swipe) (date and time), last inventory (date and time), and MAR contribution (as a percentage).
-3 – The csv file must be emailed to the Custodian and a message must be displayed confirming that the file was sent to the Custodian."

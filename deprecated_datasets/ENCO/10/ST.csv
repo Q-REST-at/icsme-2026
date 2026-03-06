@@ -1,5 +1,0 @@
-ID,Purpose,Test steps
-376,Upgrade from HES,Verify that the software in the meter (except metrological software) and the communication unit can be upgraded from HES.
-147,Retrieval of Missing Measurements,Verify that missing measurements are sent automatically to HES. Verify that missing measurements can be manually retrieved from the meter.
-148,Retrieval of Missing Measurements,Verify that missing measurements are sent automatically to HES. Verify that missing measurements can be manually retrieved from the meter.
-192,Importing of measurement data,"Verify that HES has functionality to import measurement data from a standardized text file format, such as csv."

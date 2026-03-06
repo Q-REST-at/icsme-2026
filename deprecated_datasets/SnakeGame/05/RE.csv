@@ -1,4 +1,0 @@
-ID,Feature,Description
-SG-02,Game Objective,The primary objective of the game shall be to eat items (usually represented as fruits or dots) that appear at random positions on the grid. Each item eaten makes the snake longer.
-SG-04,Score System,The game shall keep track of the player's score. The score shall increase by a fixed amount each time the snake eats an item
-SG-07,Sound Effects,The game shall include sound effects for actions like eating an item and game over

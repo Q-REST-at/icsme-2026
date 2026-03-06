@@ -1,4 +1,0 @@
-ID,Purpose,Test steps
-1,Basic Gameplay Mechanism - Part 1,"1. Start the game.,2. Press the left arrow key and check if the snake moves left.,3. Press the right arrow key and check if the snake moves right.,4. Press the up arrow key and check if the snake moves up.,5. Press the down arrow key and check if the snake moves down."
-2,Basic Gameplay Mechanism - Part 2,"1. Start the game.,2. Press the corresponding keys (e.g., A for left, D for right, W for up, S for down) and check if the snake moves in the expected directions."
-10,High Score Memory,"1. Start the game and achieve a high score.,2. Close the game.,3. Start the game again and check if the highest score is retained."

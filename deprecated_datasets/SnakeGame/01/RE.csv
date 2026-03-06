@@ -1,4 +1,0 @@
-ID,Feature,Description
-SG-01,Basic Gameplay Mechanism,"The game shall feature a snake that moves in a 2D grid. The snake can move left, right, up, and down. The movement is controlled by the player using keyboard arrow keys or equivalent input methods"
-SG-03,Game Over Condition,The game shall end (Game Over) if the snake collides with the grid boundaries or itself
-SG-09,Restart Game,The player shall have the option to restart the game after a game over

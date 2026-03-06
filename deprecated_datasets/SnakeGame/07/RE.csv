@@ -1,4 +1,0 @@
-ID,Feature,Description
-SG-01,Basic Gameplay Mechanism,"The game shall feature a snake that moves in a 2D grid. The snake can move left, right, up, and down. The movement is controlled by the player using keyboard arrow keys or equivalent input methods"
-SG-02,Game Objective,The primary objective of the game shall be to eat items (usually represented as fruits or dots) that appear at random positions on the grid. Each item eaten makes the snake longer.
-SG-11,Responsiveness and Compatibility,The game shall be responsive and compatible with various devices and screen sizes

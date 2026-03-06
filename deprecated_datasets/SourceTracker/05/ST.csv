@@ -1,9 +1,0 @@
-ID,Purpose,Test steps
-T-3,,"1 - The user must enter the bar code of the source and his/her Z number via the barcode scanner and must be an authorized user.
-2 – If the source is currently not located in its home repository, the user may still remove it but a warning message must be displayed instructing them to return it to the home repository when they have finished with it.
-3 - A display must be presented indicating the source description and the transfer details.
-4 - The user must be given the opportunity to complete the transfer, cancel the transfer, or complete the transfer and continue with additional transfers.
-5 – If the transfer transaction completes successfully, the database must be updated with the new location and source owner.  
-6 – If the user cancels the operation, no database update will be made.  
-7 – If a source has an expired leak test date, it must not be allowed to be removed from the repository unless it is within the configured grace period.  Note: an error message should be displayed and an email message should be sent to the Custodian."
-T-16,,"1 – If leak testing is past due, there must be a warning message displayed indicating that the leak testing is out of date.  The source may still be transferred if the leak testing is out of date. "

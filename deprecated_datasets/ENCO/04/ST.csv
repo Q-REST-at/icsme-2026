@@ -1,6 +1,0 @@
-ID,Purpose,Test steps
-39,Registration of power cuts - Kat2,Verify that power outages longer than 3 minutes are recorded and stored in the meter Kat2. Verify that power outages longer than 10 seconds are recorded and stored in meter Kat2.
-40,Registration of power outages - Kat1 HES,Verify that power outages longer than 3 minutes are recorded and stored in HES for Kat1 1-phase. Verify that power outages longer than 10 seconds are registered and stored in HES Kat1 3-phase
-41,Registration of power outages - Kat2 HES,Verify that power outages longer than 3 minutes are recorded and stored in HES Kat2. Verify that power outages longer than 10 seconds are registered and stored in HES Kat2.
-376,Upgrade from HES,Verify that the software in the meter (except metrological software) and the communication unit can be upgraded from HES.
-177,Reports based on status,Verify that status is included for measurements in the reports we generate.

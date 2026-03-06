@@ -1,4 +1,0 @@
-ID,Feature,Description
-S69,Unique production number - communication module,"If the measuring device consists of a meter and a communication module, these shall be provided with a unique serial number."
-S247,Penetration tests,"The client should (S247), with the help of an independent party, be able to conduct penetration tests, or equivalent audits, on the measurement system."
-S93,Structural data in HES,A user should be able to (S93) manually register structural data in HES.

@@ -1,4 +1,0 @@
-ID,Feature,Description
-SR4,Return Source to Home Repository,A capability must be provided to return a source that has been removed from its home repository back to its home repository.
-SR6,Transaction Log new ,A log of transactions must be kept in the database for a minimum of one year. 
-SR22,Add/Modify User Information,"A capability must be provided to add, or edit authorized users."

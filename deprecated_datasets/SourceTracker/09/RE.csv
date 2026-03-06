@@ -1,4 +1,0 @@
-ID,Feature,Description
-SR8,Display Category 3 MAR Status for each of the Radiation Facilities ,A capability must be provided to display Category 3 MAR status for each building. 
-SR9,Display Category IV Physical Security Status for each of the MBAs ,A capability must be provided to display Category IV Physical Security status for each MBA. 
-SR12,Confirm inventory,A capability must be provided to confirm source inventory.  Note: An inventory of all registered sources is required by the Department of Energy (DOE) every six months. 

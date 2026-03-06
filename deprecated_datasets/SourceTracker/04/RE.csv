@@ -1,4 +1,0 @@
-ID,Feature,Description
-SR10,Display Criticality and Fuel Rod Status for each of the Radiation Facilities,A capability must be provided to display criticality status for each building. 
-SR13,Transfer a source permanently from one location to another,A capability must be provided to change the home repository of a source.
-SR21,Add/Delete/Modify Source Information,"A capability must be provided to add, delete, and edit source parameters."

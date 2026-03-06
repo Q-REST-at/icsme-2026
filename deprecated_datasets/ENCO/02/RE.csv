@@ -1,8 +1,0 @@
-ID,Feature,Description
-B40,Breaker/disconnect button on the meter,The switch should be operable directly with a separet breaker button/disconnect button outside the meter
-B47,Mounting bracket at least 5 mm,The thickness of the mounting bracket  shall be (B47) at least 5 mm.
-S82,1-phase and 3-phase measurement should meet the Metering Parameters according to MID,"1-phase and 3-phase measurement should (S82) meet the meter parameters according to MID:
-- Class index = B (or better)
-- Minimum current (Imin) = 0.25 A (or lower)
-- Reference current (In) = 5 A
-- Maximum current (Imax) = 85 A (or higher) (including circuit breaker function)"

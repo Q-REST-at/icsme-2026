@@ -1,3 +1,0 @@
-ID,Purpose,Test steps
-7,User Interface,"1. Start the game.,2. Check that the user interface displays the player's score.,3. Check that the user interface displays the highest score achieved.,4. Check that the user interface displays the current level of difficulty."
-11,Responsiveness and Compatibility,"1. Play the game on different devices (e.g., desktop, mobile, tablet).,2. Test the game on various screen sizes and orientations.,3. Ensure that the game adapts and functions correctly on different platforms."
