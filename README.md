@@ -359,6 +359,3 @@ The paired VDA formula is a direct extension of Kerby's framework into a probabi
 #### Implementation
 
 The custom `run_paired_vda()` function in R matches observations by iteration index to ensure correct pairing, then computes the A_paired value and its categorical label for each treatment pair.
-
-Source code is available in the project repository:
-[`analysis/analysis_pipeline.R`](https://github.com/Q-REST-at/Q-REST-at/blob/main/analysis/analysis_pipeline.R)
