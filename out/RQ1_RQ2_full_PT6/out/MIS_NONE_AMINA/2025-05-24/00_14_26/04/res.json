@@ -1,0 +1,116 @@
+{
+    "meta": {
+        "req_path": "./data/AMINA/04/RE.csv",
+        "test_path": "./data/AMINA/04/ST.csv",
+        "mapping_path": "./data/AMINA/04/mapping.csv"
+    },
+    "data": {
+        "links": {
+            "S1": [
+                "302",
+                "303",
+                "304",
+                "406"
+            ],
+            "S28": [
+                "63"
+            ],
+            "S56": [
+                "245"
+            ],
+            "S75": [
+                "451",
+                "452"
+            ],
+            "S77": [
+                "455",
+                "456"
+            ],
+            "S116": [
+                "49"
+            ],
+            "S139": [
+                "222"
+            ],
+            "S147": [
+                "255"
+            ],
+            "S148": [
+                "256"
+            ],
+            "S152": [
+                "260"
+            ],
+            "S155": [
+                "263"
+            ],
+            "S172": [],
+            "S221": [
+                "653"
+            ],
+            "S228": [
+                "33"
+            ],
+            "S231": [
+                "20"
+            ],
+            "B11": [
+                "302",
+                "303",
+                "304"
+            ],
+            "B33": [
+                "304",
+                "330"
+            ],
+            "B48": [
+                "471",
+                "472"
+            ],
+            "B71": [
+                "218"
+            ],
+            "B87": [
+                "271"
+            ],
+            "B91": [
+                "279"
+            ],
+            "B106": [
+                "642"
+            ],
+            "S546": [
+                "87"
+            ],
+            "S548": [
+                "89"
+            ],
+            "S558": [
+                "99"
+            ]
+        },
+        "err": {
+            "S172": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 499, in _parse_list_output\n    links = [\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 500, in <listcomp>\n    self._tests_index[int(test.replace(RESTSpecification._TEST_INDEX_PREFIX, \"\"))]\nValueError: invalid literal for int() with base 10: '17-20'\n",
+                "[\"T-1\", \"T-11\", \"T-17-T-20\"]"
+            ]
+        },
+        "time_to_analyze": 12.492251276737079,
+        "GPU": {
+            "utilization": {
+                "avg": 86.27777777777777,
+                "std": 21.87219883233065,
+                "max": 100.0
+            },
+            "avg_temperature": 44.574074074074076
+        },
+        "VRAM": {
+            "max_usage_MiB": 15491.0,
+            "utilization": {
+                "avg": 44.22222222222222,
+                "std": 17.09315946889079,
+                "max": 63.0
+            }
+        }
+    }
+}

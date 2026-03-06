@@ -1,0 +1,72 @@
+{
+    "meta": {
+        "req_path": "./data/HealthWatcher/10/RE.csv",
+        "test_path": "./data/HealthWatcher/10/ST.csv",
+        "mapping_path": "./data/HealthWatcher/10/mapping.csv"
+    },
+    "data": {
+        "links": {
+            "FR01": [],
+            "FR02": [
+                "T-2"
+            ],
+            "FR10": [
+                "T-3"
+            ],
+            "FR11": [
+                "T-1",
+                "T-4",
+                "T-6",
+                "T-7",
+                "T-8"
+            ],
+            "FR12": [],
+            "FR13": [
+                "T-2",
+                "T-3",
+                "T-6"
+            ],
+            "FR14": [
+                "T-3",
+                "T-4",
+                "T-6",
+                "T-7"
+            ],
+            "FR15": [
+                "T-4"
+            ],
+            "FR16": []
+        },
+        "err": {
+            "FR01": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n  File \"/opt/conda/lib/python3.10/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n  File \"/opt/conda/lib/python3.10/json/decoder.py\", line 340, in decode\n    raise JSONDecodeError(\"Extra data\", s, end)\njson.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 8)\n",
+                "[\"T-0\"]\n[\"T-1\"]\n[\"T-7\"]"
+            ],
+            "FR12": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n  File \"/opt/conda/lib/python3.10/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n  File \"/opt/conda/lib/python3.10/json/decoder.py\", line 340, in decode\n    raise JSONDecodeError(\"Extra data\", s, end)\njson.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 8)\n",
+                "[\"T-1\"]\n[\"T-3\"]\n[\"T-4\"]\n[\"T-7\"]\n[\"T-8\"]\n\nThis requirement can be covered by tests T-1, T-3, T-4, T-7, and T-8. These tests involve updating or registering information, which aligns with the requirement's description of updating a complaint."
+            ],
+            "FR16": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n  File \"/opt/conda/lib/python3.10/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n  File \"/opt/conda/lib/python3.10/json/decoder.py\", line 340, in decode\n    raise JSONDecodeError(\"Extra data\", s, end)\njson.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 8)\n",
+                "[\"T-2\"]\n[\"T-8\"]"
+            ]
+        },
+        "time_to_analyze": 9.258059072773904,
+        "GPU": {
+            "utilization": {
+                "avg": 88.5,
+                "std": 18.34043152631444,
+                "max": 100.0
+            },
+            "avg_temperature": 37.583333333333336
+        },
+        "VRAM": {
+            "max_usage_MiB": 6463.0,
+            "utilization": {
+                "avg": 31.416666666666668,
+                "std": 12.02467700783922,
+                "max": 52.0
+            }
+        }
+    }
+}

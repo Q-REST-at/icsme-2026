@@ -1,0 +1,67 @@
+{
+    "meta": {
+        "req_path": "./data/HealthWatcher/07/RE.csv",
+        "test_path": "./data/HealthWatcher/07/ST.csv",
+        "mapping_path": "./data/HealthWatcher/07/mapping.csv"
+    },
+    "data": {
+        "links": {
+            "FR01": [],
+            "FR02": [
+                "T-2"
+            ],
+            "FR10": [
+                "T-3"
+            ],
+            "FR11": [
+                "T-4",
+                "T-5",
+                "T-6",
+                "T-7"
+            ],
+            "FR12": [
+                "T-2"
+            ],
+            "FR13": [],
+            "FR14": [
+                "T-3",
+                "T-4"
+            ],
+            "FR15": [
+                "T-4"
+            ],
+            "FR16": []
+        },
+        "err": {
+            "FR01": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n  File \"/opt/conda/lib/python3.10/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n  File \"/opt/conda/lib/python3.10/json/decoder.py\", line 340, in decode\n    raise JSONDecodeError(\"Extra data\", s, end)\njson.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 8)\n",
+                "[\"T-0\"]\n[\"T-1\"]\n[\"T-7\"]\n[\"T-8\"]\n\n(Note: Based on the given requirement description, the test cases T-2, T-3, T-4, T-5, T-6 seem not to cover the requirement as they are not related to querying information.)"
+            ],
+            "FR13": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n  File \"/opt/conda/lib/python3.10/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n  File \"/opt/conda/lib/python3.10/json/decoder.py\", line 340, in decode\n    raise JSONDecodeError(\"Extra data\", s, end)\njson.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 8)\n",
+                "[\"T-1\"]\n[\"T-2\"]\n[\"T-3\"]\n[\"T-5\"]\n[\"T-6\"]\n[\"T-7\"]"
+            ],
+            "FR16": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n  File \"/opt/conda/lib/python3.10/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n  File \"/opt/conda/lib/python3.10/json/decoder.py\", line 340, in decode\n    raise JSONDecodeError(\"Extra data\", s, end)\njson.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 8)\n",
+                "[\"T-2\"]\n[\"T-8\"]"
+            ]
+        },
+        "time_to_analyze": 23.212020128034055,
+        "GPU": {
+            "utilization": {
+                "avg": 58.98837209302326,
+                "std": 12.098122543744022,
+                "max": 100.0
+            },
+            "avg_temperature": 38.18604651162791
+        },
+        "VRAM": {
+            "max_usage_MiB": 5519.0,
+            "utilization": {
+                "avg": 17.127906976744185,
+                "std": 10.591668769954115,
+                "max": 58.0
+            }
+        }
+    }
+}

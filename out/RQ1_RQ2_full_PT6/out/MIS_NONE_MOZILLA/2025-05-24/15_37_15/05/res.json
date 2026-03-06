@@ -1,0 +1,92 @@
+{
+    "meta": {
+        "req_path": "./data/Mozilla/05/RE.csv",
+        "test_path": "./data/Mozilla/05/ST.csv",
+        "mapping_path": "./data/Mozilla/05/mapping.csv"
+    },
+    "data": {
+        "links": {
+            "R-30": [
+                "T-30"
+            ],
+            "R-33": [
+                "T-33"
+            ],
+            "R-35": [
+                "T-35"
+            ],
+            "R-58": [
+                "T-58"
+            ],
+            "R-64": [],
+            "R-73": [
+                "T-73"
+            ],
+            "R-103": [],
+            "R-125": [],
+            "R-136": [],
+            "R-171": [],
+            "R-176": [
+                "T-176",
+                "T-177"
+            ],
+            "R-177": [],
+            "R-181": [],
+            "R-186": [
+                "T-177",
+                "T-181",
+                "T-186"
+            ],
+            "R-197": [
+                "T-197"
+            ],
+            "R-209": [],
+            "R-211": [
+                "T-211"
+            ],
+            "R-213": [],
+            "R-217": [
+                "T-217"
+            ],
+            "R-233": [
+                "T-233"
+            ],
+            "R-236": [
+                "T-236"
+            ],
+            "R-241": [
+                "T-241",
+                "T-250",
+                "T-262"
+            ],
+            "R-250": [],
+            "R-262": [
+                "T-262"
+            ],
+            "R-298": []
+        },
+        "err": {
+            "R-177": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 499, in _parse_list_output\n    links = [\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 500, in <listcomp>\n    self._tests_index[int(test.replace(RESTSpecification._TEST_INDEX_PREFIX, \"\"))]\nIndexError: list index out of range\n",
+                "[\"T-9\", \"T-19\", \"T-21\", \"T-22\", \"T-29\"]\n\nNote: I assumed that \"T-29\" is the test case with ID \"T-9\" but with different content, as it appears to have the same purpose as \"T-9\" but different test steps."
+            ]
+        },
+        "time_to_analyze": 20.53790403250605,
+        "GPU": {
+            "utilization": {
+                "avg": 93.85,
+                "std": 13.622486993891174,
+                "max": 100.0
+            },
+            "avg_temperature": 50.4375
+        },
+        "VRAM": {
+            "max_usage_MiB": 16193.0,
+            "utilization": {
+                "avg": 44.65,
+                "std": 10.5855167354722,
+                "max": 65.0
+            }
+        }
+    }
+}

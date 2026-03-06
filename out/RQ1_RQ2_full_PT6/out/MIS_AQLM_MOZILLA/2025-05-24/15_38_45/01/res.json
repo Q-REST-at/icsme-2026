@@ -1,0 +1,140 @@
+{
+    "meta": {
+        "req_path": "./data/Mozilla/01/RE.csv",
+        "test_path": "./data/Mozilla/01/ST.csv",
+        "mapping_path": "./data/Mozilla/01/mapping.csv"
+    },
+    "data": {
+        "links": {
+            "R-16": [
+                "T-16",
+                "T-19"
+            ],
+            "R-19": [
+                "T-27",
+                "T-35"
+            ],
+            "R-27": [
+                "T-27"
+            ],
+            "R-35": [],
+            "R-36": [],
+            "R-60": [],
+            "R-62": [],
+            "R-71": [],
+            "R-102": [],
+            "R-123": [],
+            "R-136": [],
+            "R-148": [],
+            "R-166": [
+                "T-16",
+                "T-19"
+            ],
+            "R-185": [],
+            "R-197": [
+                "T-197"
+            ],
+            "R-203": [
+                "T-19",
+                "T-203"
+            ],
+            "R-224": [
+                "T-224",
+                "T-229"
+            ],
+            "R-225": [
+                "T-27",
+                "T-225"
+            ],
+            "R-229": [],
+            "R-235": [
+                "T-16",
+                "T-19"
+            ],
+            "R-245": [],
+            "R-247": [
+                "T-247"
+            ],
+            "R-297": [],
+            "R-298": [
+                "T-298"
+            ],
+            "R-308": []
+        },
+        "err": {
+            "R-35": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n            ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 340, in decode\n    raise JSONDecodeError(\"Extra data\", s, end)\njson.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 8)\n",
+                "The test cases in the file \"tests.json\" are testing the requirement \"Determine whether extremely large text blocks can be copied from web pages.\" The following test cases are testing this requirement:\n\n[\"T-3\"]\n[\"T-15\"]\n[\"T-18\"]\n[\"T-19\"]\n[\"T-20\"]\n[/]\n\nNote: The test cases \"T-4\", \"T-6\", \"T-7\", \"T-8\", \"T-11\", \"T-12\", \"T-13\", \"T-14\", \"T-16\", \"T-17\", \"T-21\", \"T-22\", \"T-23\", \"T-24\", \"T-25\" are not testing the requirement as they are not related to copying text blocks from web pages."
+            ],
+            "R-36": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n            ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n",
+                "The test cases in the file \"tests.json\" are testing the requirement for \"Determining whether extremely large images can be copied from web pages\" as follows:\n\n- T-4\n- T-15\n- T-18\n- T-19\n- T-20\n- T-21\n- T-22\n- T-23\n- T-24\n- T-25\n\nThese test cases test the requirement by checking if the user can copy large images from web pages, copy them to the clipboard or save them to a text editor, and if the images load properly in the browser."
+            ],
+            "R-60": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n            ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n",
+                "The test cases in the file \"tests.json\" are testing the requirement if you can drag a large image across browser windows, to the desktop, and into mail messages. The test cases with IDs \"T-5\", \"T-15\", and \"T-18\" are testing this requirement."
+            ],
+            "R-62": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n            ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n",
+                "The test cases in the file \"tests.json\" are testing the requirement if you can drag a bookmark from the Bookmarks menu to the Personal Toolbar. The test cases with IDs \"T-6\", \"T-12\", and \"T-16\" are testing this requirement."
+            ],
+            "R-71": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n            ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 340, in decode\n    raise JSONDecodeError(\"Extra data\", s, end)\njson.decoder.JSONDecodeError: Extra data: line 1 column 9 (char 8)\n",
+                "The test cases in the file \"tests.json\" that test the requirement \"Save Form Data - dialog no\" are: [\"T-7\"] and \"[T-15]\"."
+            ],
+            "R-102": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n            ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 340, in decode\n    raise JSONDecodeError(\"Extra data\", s, end)\njson.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 8)\n",
+                "The test cases in the file \"tests.json\" that test the requirement \"Help Contents displays correctly\" are:\n\n[\"T-8\"]\n[\"T-12\"]\n[\"T-15\"]\n[\"T-18\"]\n[\"T-23\"]\n[T-24]\n[T-25]\n\nThese test cases test the requirement by checking if the help contents display correctly when clicked and print correctly."
+            ],
+            "R-123": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n            ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 340, in decode\n    raise JSONDecodeError(\"Extra data\", s, end)\njson.decoder.JSONDecodeError: Extra data: line 1 column 9 (char 8)\n",
+                "The test cases in the file \"tests.json\" that test the requirement \"Load recorded url\" are: [\"T-9\"] and \"[T-15]\"."
+            ],
+            "R-136": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n            ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n",
+                "The test cases in the file \"tests.json\" are testing the requirement if a user can change the search engine used to conduct searches. The test cases with IDs \"T-16\" and \"T-18\" are testing this requirement."
+            ],
+            "R-148": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n            ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 340, in decode\n    raise JSONDecodeError(\"Extra data\", s, end)\njson.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 9)\n",
+                "The test cases in the file \"tests.json\" that test the requirement \"Determine that it is possible to print an image without changing the currently loaded page\" are:\n\n[\"T-11\"]\n[\"T-15\"]\n[T-18]\n[T-23]\n[T-24]\n[T-25]\n[T-26]\n[T-27]\n[T-28]\n[T-30]\n[T-31]\n[T-32]\n[T-33]\n[T-34]\n[T-35]\n[T-36]\n[T-37]\n[T-38]\n[T-39]\n[T-40]\n[T-41]\n[T-42]\n[T-43]\n[T-44]\n[T-45]\n[T-46]\n[T-47]\n[T-48]\n[T-49]\n[T-50]\n[T-51]\n[T-52]\n[T-53]\n[T-54]\n[T-55]\n[T-56]\n[T-57]\n[T-58]\n[T-59]\n[T-60]\n[T-61]\n[T-62]\n[T-63]\n[T-64]\n[T-65]\n[T-66]\n[T-67]\n[T-68]\n[T-69]\n[T-70]\n[T-71]\n[T-72]\n[T-73]\n[T-74]\n[T-75]\n[T-76]\n[T-77]\n[T-78]\n[T-79]\n[T-80]\n[T-81]\n[T-82]\n[T-83]\n[T-84]\n[T-85]\n[T-86]\n[T-87]\n[T-88]\n[T-89]\n[T-90]\n[T-91]\n[T-92]\n[T-93]\n[T-94]\n[T-95]\n[T-96]\n[T-97]\n[T-98]\n[T-99]\n\nThese test cases test the requirement \"Determine that it is possible to print an image without changing the currently loaded page\" by testing whether the user can print an image from the webpage, copy it to the clipboard, and paste it into a text editor or word processor. The test cases do not test the requirement directly, but they indirectly test the requirement by testing the ability to copy and paste images."
+            ],
+            "R-185": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 407, in _parse_intermediary_output\n    return self._parse_json_output(res)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 455, in _parse_json_output\n    if res_obj[\"tests\"] else []\n       ~~~~~~~^^^^^^^^^\nKeyError: 'tests'\n",
+                "The test cases in the file \"tests.json\" are testing the requirement if you can remove all username and password information from the password manager (lycos.com) and it will no longer autofill nor will anything be listed in password manager. The test cases are:\n\n[\"T-13\"]\n[\"T-13\"]\n[\n  {\n    \"ID\": \"T-13\",\n    \"Feature\": \"Tasks, passwords saved, remove all\",\n    \"Description\": \"Verify that you can remove all username and password information and\\n      it will no longer autofill nor\\n      will anything be listed in password\\n  manager (lycos.com)\"\n  }\n\nThis test case tests the requirement by verifying that the user can remove all username and password information from the password manager and it will no longer autofill nor will anything be listed in password manager. Therefore, it is testing the requirement."
+            ],
+            "R-229": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n            ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n",
+                "The test cases in the file \"tests.json\" that test the requirement \"Determine whether the double-click gesture functions properly\" are: T-18."
+            ],
+            "R-245": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n            ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n",
+                "The test cases in the file \"tests.json\" are not testing the requirement \"Delete all panels\" as none of the test cases mention this requirement in their description."
+            ],
+            "R-297": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n            ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 340, in decode\n    raise JSONDecodeError(\"Extra data\", s, end)\njson.decoder.JSONDecodeError: Extra data: line 1 column 10 (char 9)\n",
+                "The test cases in the file \"tests.json\" that test the requirement \"Check for Themes\" are: [\"T-22\"] and \"[T-23]\"."
+            ],
+            "R-308": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n            ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n",
+                "The test cases in the file \"tests.json\" that test the requirement \"Verify the title is correct, '<page title> - Mozilla\"\" are: T-0, T-1, T-15, T-16, T-18, T-23, T-24, T-25\""
+            ]
+        },
+        "time_to_analyze": 114.52027566614561,
+        "GPU": {
+            "utilization": {
+                "avg": 57.673289183222956,
+                "std": 13.80999756485892,
+                "max": 100.0
+            },
+            "avg_temperature": 36.19867549668874
+        },
+        "VRAM": {
+            "max_usage_MiB": 4207.0,
+            "utilization": {
+                "avg": 20.65783664459161,
+                "std": 8.717032036302754,
+                "max": 48.0
+            }
+        }
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "meta": {
+        "req_path": "./data/Mozilla/10/RE.csv",
+        "test_path": "./data/Mozilla/10/ST.csv",
+        "mapping_path": "./data/Mozilla/10/mapping.csv"
+    },
+    "data": {
+        "links": {
+            "R-27": [
+                "T-27"
+            ],
+            "R-33": [
+                "T-33"
+            ],
+            "R-49": [
+                "T-49"
+            ],
+            "R-61": [],
+            "R-65": [
+                "T-65"
+            ],
+            "R-82": [],
+            "R-121": [],
+            "R-126": [],
+            "R-129": [],
+            "R-146": [],
+            "R-153": [],
+            "R-175": [
+                "T-175"
+            ],
+            "R-190": [],
+            "R-192": [],
+            "R-239": [
+                "T-239"
+            ],
+            "R-243": [],
+            "R-244": [],
+            "R-256": [
+                "T-256"
+            ],
+            "R-266": [
+                "T-319"
+            ],
+            "R-294": [],
+            "R-296": [],
+            "R-312": [],
+            "R-315": [],
+            "R-316": [],
+            "R-319": []
+        },
+        "err": {
+            "R-192": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 499, in _parse_list_output\n    links = [\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 500, in <listcomp>\n    self._tests_index[int(test.replace(RESTSpecification._TEST_INDEX_PREFIX, \"\"))]\nIndexError: list index out of range\n",
+                "[\"T-19\"]\n\nExplanation: The test case with ID \"T-19\" is the only one that mentions printing a page and checking if indentations are printed as seen on screen, which matches the requirement description."
+            ]
+        },
+        "time_to_analyze": 16.814817770849913,
+        "GPU": {
+            "utilization": {
+                "avg": 76.14754098360656,
+                "std": 24.35900659275317,
+                "max": 100.0
+            },
+            "avg_temperature": 44.721311475409834
+        },
+        "VRAM": {
+            "max_usage_MiB": 5721.0,
+            "utilization": {
+                "avg": 40.83606557377049,
+                "std": 22.472338795260313,
+                "max": 67.0
+            }
+        }
+    }
+}

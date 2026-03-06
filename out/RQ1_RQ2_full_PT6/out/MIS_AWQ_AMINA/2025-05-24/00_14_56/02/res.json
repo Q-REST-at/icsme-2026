@@ -1,0 +1,132 @@
+{
+    "meta": {
+        "req_path": "./data/AMINA/02/RE.csv",
+        "test_path": "./data/AMINA/02/ST.csv",
+        "mapping_path": "./data/AMINA/02/mapping.csv"
+    },
+    "data": {
+        "links": {
+            "S2": [
+                "35"
+            ],
+            "S12": [
+                "364"
+            ],
+            "S27": [
+                "414",
+                "415"
+            ],
+            "S28": [
+                "485",
+                "491",
+                "466",
+                "483",
+                "484"
+            ],
+            "S30": [
+                "483",
+                "484"
+            ],
+            "S38": [],
+            "S75": [
+                "451",
+                "452"
+            ],
+            "S111": [
+                "188"
+            ],
+            "S117": [
+                "50"
+            ],
+            "S135": [
+                "216",
+                "256",
+                "364",
+                "491",
+                "596"
+            ],
+            "S137": [
+                "220",
+                "256",
+                "364",
+                "596",
+                "415",
+                "451",
+                "452",
+                "466",
+                "483",
+                "484",
+                "485"
+            ],
+            "S143": [
+                "596"
+            ],
+            "S148": [
+                "256",
+                "256"
+            ],
+            "S152": [
+                "260"
+            ],
+            "S163": [
+                "273"
+            ],
+            "S174": [
+                "348"
+            ],
+            "S236": [
+                "23"
+            ],
+            "B24": [],
+            "B34": [
+                "331"
+            ],
+            "B45": [
+                "465",
+                "466"
+            ],
+            "B61": [
+                "358"
+            ],
+            "B90": [
+                "274"
+            ],
+            "B108": [
+                "32"
+            ],
+            "S537": [
+                "491"
+            ],
+            "S549": [
+                "90"
+            ]
+        },
+        "err": {
+            "S38": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n  File \"/opt/conda/lib/python3.10/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n  File \"/opt/conda/lib/python3.10/json/decoder.py\", line 340, in decode\n    raise JSONDecodeError(\"Extra data\", s, end)\njson.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 8)\n",
+                "[\"T-6\"]\n[\"T-10\"]\n[\"T-11\"]\n[\"T-19\"]\n[\"T-30\"]"
+            ],
+            "B24": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n  File \"/opt/conda/lib/python3.10/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n  File \"/opt/conda/lib/python3.10/json/decoder.py\", line 340, in decode\n    raise JSONDecodeError(\"Extra data\", s, end)\njson.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 9)\n",
+                "[\"T-15\"]\n[\"T-16\"]"
+            ]
+        },
+        "time_to_analyze": 24.237692661816254,
+        "GPU": {
+            "utilization": {
+                "avg": 62.065934065934066,
+                "std": 15.13553742965519,
+                "max": 100.0
+            },
+            "avg_temperature": 38.747252747252745
+        },
+        "VRAM": {
+            "max_usage_MiB": 5419.0,
+            "utilization": {
+                "avg": 20.208791208791208,
+                "std": 12.233393717849593,
+                "max": 52.0
+            }
+        }
+    }
+}

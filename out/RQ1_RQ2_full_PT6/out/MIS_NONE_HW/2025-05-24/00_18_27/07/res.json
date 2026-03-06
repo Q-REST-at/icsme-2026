@@ -1,0 +1,65 @@
+{
+    "meta": {
+        "req_path": "./data/HealthWatcher/07/RE.csv",
+        "test_path": "./data/HealthWatcher/07/ST.csv",
+        "mapping_path": "./data/HealthWatcher/07/mapping.csv"
+    },
+    "data": {
+        "links": {
+            "FR01": [],
+            "FR02": [
+                "T-2"
+            ],
+            "FR10": [
+                "T-3"
+            ],
+            "FR11": [
+                "T-4",
+                "T-5",
+                "T-6",
+                "T-7"
+            ],
+            "FR12": [
+                "T-2"
+            ],
+            "FR13": [
+                "T-2"
+            ],
+            "FR14": [
+                "T-3",
+                "T-4",
+                "T-6",
+                "T-7"
+            ],
+            "FR15": [
+                "T-2"
+            ],
+            "FR16": [
+                "T-3"
+            ]
+        },
+        "err": {
+            "FR01": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n  File \"/opt/conda/lib/python3.10/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n  File \"/opt/conda/lib/python3.10/json/decoder.py\", line 340, in decode\n    raise JSONDecodeError(\"Extra data\", s, end)\njson.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 8)\n",
+                "[\"T-0\"]\n[\"T-1\", \"T-2\", \"T-3\", \"T-4\", \"T-5\", \"T-6\", \"T-7\"]\n\nThis requirement can be covered by tests T-0, T-1, T-2, T-3, T-5, T-6, and T-7 as they all involve querying or updating information related to health units and complaints."
+            ]
+        },
+        "time_to_analyze": 11.292294455692172,
+        "GPU": {
+            "utilization": {
+                "avg": 82.4375,
+                "std": 24.458306903703384,
+                "max": 100.0
+            },
+            "avg_temperature": 36.458333333333336
+        },
+        "VRAM": {
+            "max_usage_MiB": 15531.0,
+            "utilization": {
+                "avg": 48.041666666666664,
+                "std": 20.694287764967672,
+                "max": 62.0
+            }
+        }
+    }
+}

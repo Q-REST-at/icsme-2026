@@ -1,0 +1,74 @@
+{
+    "meta": {
+        "req_path": "./data/HealthWatcher/08/RE.csv",
+        "test_path": "./data/HealthWatcher/08/ST.csv",
+        "mapping_path": "./data/HealthWatcher/08/mapping.csv"
+    },
+    "data": {
+        "links": {
+            "FR01": [],
+            "FR02": [
+                "T-2"
+            ],
+            "FR10": [
+                "T-3"
+            ],
+            "FR11": [
+                "T-1",
+                "T-4",
+                "T-6",
+                "T-7",
+                "T-8"
+            ],
+            "FR12": [],
+            "FR13": [
+                "T-2",
+                "T-3",
+                "T-6"
+            ],
+            "FR14": [
+                "T-3",
+                "T-4",
+                "T-6",
+                "T-7"
+            ],
+            "FR15": [],
+            "FR16": []
+        },
+        "err": {
+            "FR01": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n  File \"/opt/conda/lib/python3.10/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n  File \"/opt/conda/lib/python3.10/json/decoder.py\", line 340, in decode\n    raise JSONDecodeError(\"Extra data\", s, end)\njson.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 8)\n",
+                "[\"T-0\"]\n[\"T-1\"]\n[\"T-7\"]"
+            ],
+            "FR12": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n  File \"/opt/conda/lib/python3.10/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n  File \"/opt/conda/lib/python3.10/json/decoder.py\", line 340, in decode\n    raise JSONDecodeError(\"Extra data\", s, end)\njson.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 8)\n",
+                "[\"T-1\"]\n[\"T-3\"]\n[\"T-4\"]\n[\"T-7\"]\n[\"T-8\"]\n\nThis requirement can be covered by tests T-1, T-3, T-4, T-7, and T-8 as they all involve updating or registering information, which is related to the requirement of updating a complaint."
+            ],
+            "FR15": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n  File \"/opt/conda/lib/python3.10/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n  File \"/opt/conda/lib/python3.10/json/decoder.py\", line 340, in decode\n    raise JSONDecodeError(\"Extra data\", s, end)\njson.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 8)\n",
+                "[\"T-1\"]\n[\"T-3\"]\n[\"T-7\"]\n[\"T-8\"]\n\nThis requirement \"Update health unit\" is covered by test cases \"T-1\" (Register complaint), \"T-3\" (Register/Update employee data), \"T-7\" (Update health unit), and \"T-8\" (Change logged employee)."
+            ],
+            "FR16": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n  File \"/opt/conda/lib/python3.10/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n  File \"/opt/conda/lib/python3.10/json/decoder.py\", line 340, in decode\n    raise JSONDecodeError(\"Extra data\", s, end)\njson.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 8)\n",
+                "[\"T-2\"]\n[\"T-8\"]"
+            ]
+        },
+        "time_to_analyze": 10.964832163183019,
+        "GPU": {
+            "utilization": {
+                "avg": 89.32558139534883,
+                "std": 16.121149861849712,
+                "max": 100.0
+            },
+            "avg_temperature": 37.25581395348837
+        },
+        "VRAM": {
+            "max_usage_MiB": 6463.0,
+            "utilization": {
+                "avg": 30.25581395348837,
+                "std": 10.30509125963106,
+                "max": 50.0
+            }
+        }
+    }
+}

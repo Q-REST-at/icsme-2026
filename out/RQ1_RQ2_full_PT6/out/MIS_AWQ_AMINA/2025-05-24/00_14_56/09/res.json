@@ -1,0 +1,131 @@
+{
+    "meta": {
+        "req_path": "./data/AMINA/09/RE.csv",
+        "test_path": "./data/AMINA/09/ST.csv",
+        "mapping_path": "./data/AMINA/09/mapping.csv"
+    },
+    "data": {
+        "links": {
+            "S2": [
+                "35"
+            ],
+            "S12": [
+                "364"
+            ],
+            "S24": [
+                "43",
+                "44"
+            ],
+            "S73": [
+                "447",
+                "448"
+            ],
+            "S77": [
+                "455",
+                "456"
+            ],
+            "S111": [
+                "188"
+            ],
+            "S147": [
+                "255",
+                "260",
+                "274",
+                "293",
+                "310",
+                "341",
+                "364",
+                "447",
+                "448"
+            ],
+            "S152": [
+                "260"
+            ],
+            "S166": [
+                "277"
+            ],
+            "S172": [
+                "29"
+            ],
+            "S213": [
+                "56"
+            ],
+            "S228": [
+                "33"
+            ],
+            "S236": [
+                "23",
+                "238",
+                "255"
+            ],
+            "S237": [
+                "21",
+                "238",
+                "255"
+            ],
+            "B1": [
+                "293"
+            ],
+            "B15": [],
+            "B24": [
+                "319",
+                "310",
+                "319"
+            ],
+            "B34": [
+                "331"
+            ],
+            "B42": [
+                "339",
+                "340",
+                "341"
+            ],
+            "B61": [
+                "358"
+            ],
+            "B71": [
+                "218"
+            ],
+            "B85": [
+                "238",
+                "255",
+                "310",
+                "339",
+                "340",
+                "341"
+            ],
+            "B90": [
+                "274"
+            ],
+            "B105": [
+                "10"
+            ],
+            "S546": [
+                "87"
+            ]
+        },
+        "err": {
+            "B15": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n  File \"/opt/conda/lib/python3.10/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n  File \"/opt/conda/lib/python3.10/json/decoder.py\", line 340, in decode\n    raise JSONDecodeError(\"Extra data\", s, end)\njson.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 9)\n",
+                "[\"T-18\"]\n[\"T-19\", \"T-20\"]\n[\"T-23\"]\n[\"T-25\", \"T-26\", \"T-27\"]\n[\"T-28\", \"T-29\"]\n[\"T-17\", \"T-18\"]"
+            ]
+        },
+        "time_to_analyze": 29.592927353456616,
+        "GPU": {
+            "utilization": {
+                "avg": 59.85585585585586,
+                "std": 14.6603031389016,
+                "max": 99.0
+            },
+            "avg_temperature": 38.16216216216216
+        },
+        "VRAM": {
+            "max_usage_MiB": 5327.0,
+            "utilization": {
+                "avg": 18.135135135135137,
+                "std": 11.605239010101105,
+                "max": 51.0
+            }
+        }
+    }
+}

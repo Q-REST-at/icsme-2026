@@ -1,0 +1,111 @@
+{
+    "meta": {
+        "req_path": "./data/AMINA/07/RE.csv",
+        "test_path": "./data/AMINA/07/ST.csv",
+        "mapping_path": "./data/AMINA/07/mapping.csv"
+    },
+    "data": {
+        "links": {
+            "S8": [
+                "360"
+            ],
+            "S60": [
+                "251"
+            ],
+            "S73": [
+                "447",
+                "448"
+            ],
+            "S89": [
+                "141"
+            ],
+            "S94": [
+                "149"
+            ],
+            "S135": [
+                "216"
+            ],
+            "S137": [
+                "220"
+            ],
+            "S143": [
+                "596"
+            ],
+            "S152": [
+                "260"
+            ],
+            "S163": [
+                "273"
+            ],
+            "S182": [
+                "480",
+                "480",
+                "486",
+                "486"
+            ],
+            "S228": [
+                "33"
+            ],
+            "S234": [],
+            "S238": [
+                "24"
+            ],
+            "B1": [
+                "293"
+            ],
+            "B24": [
+                "319"
+            ],
+            "B30": [
+                "327"
+            ],
+            "B31": [
+                "328"
+            ],
+            "B53": [
+                "434"
+            ],
+            "B106": [
+                "642"
+            ],
+            "B108": [
+                "32"
+            ],
+            "S537": [
+                "491"
+            ],
+            "S543": [
+                "84"
+            ],
+            "S558": [
+                "99"
+            ],
+            "S559": [
+                "100"
+            ]
+        },
+        "err": {
+            "S234": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n  File \"/opt/conda/lib/python3.10/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n  File \"/opt/conda/lib/python3.10/json/decoder.py\", line 340, in decode\n    raise JSONDecodeError(\"Extra data\", s, end)\njson.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 8)\n",
+                "[\"T-0\"]\n[\"T-8\"]\n[\"T-10\"]\n[\"T-14\"]\n[\"T-15\"]\n[\"T-16\"]\n[\"T-17\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-28\"]\n[\"T-29\"]\n[\"T-30\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n\nIf test case T-24 is considered to be related to the requirement, then add T-24 to the list.\n\n[\"T-0\"]\n[\"T-8\"]\n[\"T-10\"]\n[\"T-14\"]\n[\"T-15\"]\n[\"T-16\"]\n[\"T-17\"]\n[\"T-18\"]\n[\"T-24\"]\n[\"T-25\"]\n[\"T-28\"]\n[\"T-29\"]\n[\"T-30\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]"
+            ]
+        },
+        "time_to_analyze": 23.183365230681375,
+        "GPU": {
+            "utilization": {
+                "avg": 94.9,
+                "std": 11.138605807094653,
+                "max": 100.0
+            },
+            "avg_temperature": 42.82222222222222
+        },
+        "VRAM": {
+            "max_usage_MiB": 6499.0,
+            "utilization": {
+                "avg": 36.144444444444446,
+                "std": 9.245176223077378,
+                "max": 50.0
+            }
+        }
+    }
+}

@@ -1,0 +1,332 @@
+[
+  {
+    "data_path": "./out/MIS_NONE_AMINA/2025-05-24/00_14_26/01",
+    "prevalence": 0.041,
+    "n": 1000,
+    "tp": 27,
+    "tn": 954,
+    "fp": 5,
+    "fn": 14,
+    "accuracy": 0.981,
+    "balanced_accuracy": 0.9146435950413223,
+    "f1": 0.7397260273972602,
+    "recall": 0.6585365853658537,
+    "precision": 0.84375,
+    "specificity": 0.9855371900826446,
+    "err": 0,
+    "time_to_analyze": 20.693163722287863,
+    "GPU": {
+      "utilization": {
+        "avg": 93.5679012345679,
+        "std": 13.133866787436343,
+        "max": 100.0
+      },
+      "avg_temperature": 46.51851851851852
+    },
+    "VRAM": {
+      "max_usage_MiB": 15773.0,
+      "utilization": {
+        "avg": 52.407407407407405,
+        "std": 11.415754221445223,
+        "max": 64.0
+      }
+    }
+  },
+  {
+    "data_path": "./out/MIS_NONE_AMINA/2025-05-24/00_14_26/02",
+    "prevalence": 0.04,
+    "n": 775,
+    "tp": 29,
+    "tn": 741,
+    "fp": 3,
+    "fn": 2,
+    "accuracy": 0.9935483870967742,
+    "balanced_accuracy": 0.9517791049798116,
+    "f1": 0.9206349206349206,
+    "recall": 0.9354838709677419,
+    "precision": 0.90625,
+    "specificity": 0.9973082099596231,
+    "err": 1,
+    "time_to_analyze": 13.31047356268391,
+    "GPU": {
+      "utilization": {
+        "avg": 81.56896551724138,
+        "std": 26.152798024783234,
+        "max": 100.0
+      },
+      "avg_temperature": 42.98275862068966
+    },
+    "VRAM": {
+      "max_usage_MiB": 15507.0,
+      "utilization": {
+        "avg": 46.01724137931034,
+        "std": 19.32228181951199,
+        "max": 61.0
+      }
+    }
+  },
+  {
+    "data_path": "./out/MIS_NONE_AMINA/2025-05-24/00_14_26/03",
+    "prevalence": 0.04105263157894737,
+    "n": 950,
+    "tp": 25,
+    "tn": 896,
+    "fp": 15,
+    "fn": 14,
+    "accuracy": 0.9694736842105263,
+    "balanced_accuracy": 0.8048076923076923,
+    "f1": 0.6329113924050633,
+    "recall": 0.6410256410256411,
+    "precision": 0.625,
+    "specificity": 0.9846153846153847,
+    "err": 3,
+    "time_to_analyze": 654.4473725685384,
+    "GPU": {
+      "utilization": {
+        "avg": 96.87199082919373,
+        "std": 4.155985557119539,
+        "max": 100.0
+      },
+      "avg_temperature": 45.121895299961785
+    },
+    "VRAM": {
+      "max_usage_MiB": 21983.0,
+      "utilization": {
+        "avg": 66.1310661062285,
+        "std": 4.790330327904831,
+        "max": 68.0
+      }
+    }
+  },
+  {
+    "data_path": "./out/MIS_NONE_AMINA/2025-05-24/00_14_26/04",
+    "prevalence": 0.04,
+    "n": 775,
+    "tp": 29,
+    "tn": 740,
+    "fp": 4,
+    "fn": 2,
+    "accuracy": 0.9922580645161291,
+    "balanced_accuracy": 0.9380462304990607,
+    "f1": 0.90625,
+    "recall": 0.9354838709677419,
+    "precision": 0.8787878787878788,
+    "specificity": 0.9973045822102425,
+    "err": 1,
+    "time_to_analyze": 12.492251276737079,
+    "GPU": {
+      "utilization": {
+        "avg": 86.27777777777777,
+        "std": 21.87219883233065,
+        "max": 100.0
+      },
+      "avg_temperature": 44.574074074074076
+    },
+    "VRAM": {
+      "max_usage_MiB": 15491.0,
+      "utilization": {
+        "avg": 44.22222222222222,
+        "std": 17.09315946889079,
+        "max": 63.0
+      }
+    }
+  },
+  {
+    "data_path": "./out/MIS_NONE_AMINA/2025-05-24/00_14_26/05",
+    "prevalence": 0.04,
+    "n": 775,
+    "tp": 27,
+    "tn": 721,
+    "fp": 23,
+    "fn": 4,
+    "accuracy": 0.9651612903225807,
+    "balanced_accuracy": 0.7672413793103449,
+    "f1": 0.6666666666666666,
+    "recall": 0.8709677419354839,
+    "precision": 0.54,
+    "specificity": 0.9944827586206897,
+    "err": 0,
+    "time_to_analyze": 13.575897695031017,
+    "GPU": {
+      "utilization": {
+        "avg": 83.93333333333334,
+        "std": 23.077516144776705,
+        "max": 100.0
+      },
+      "avg_temperature": 42.5
+    },
+    "VRAM": {
+      "max_usage_MiB": 15415.0,
+      "utilization": {
+        "avg": 46.13333333333333,
+        "std": 19.10316919901846,
+        "max": 61.0
+      }
+    }
+  },
+  {
+    "data_path": "./out/MIS_NONE_AMINA/2025-05-24/00_14_26/06",
+    "prevalence": 0.04,
+    "n": 750,
+    "tp": 26,
+    "tn": 704,
+    "fp": 16,
+    "fn": 4,
+    "accuracy": 0.9733333333333334,
+    "balanced_accuracy": 0.8066989507667475,
+    "f1": 0.7222222222222222,
+    "recall": 0.8666666666666667,
+    "precision": 0.6190476190476191,
+    "specificity": 0.9943502824858758,
+    "err": 1,
+    "time_to_analyze": 626.0118686454371,
+    "GPU": {
+      "utilization": {
+        "avg": 96.79073482428115,
+        "std": 3.908069908110819,
+        "max": 100.0
+      },
+      "avg_temperature": 44.944488817891376
+    },
+    "VRAM": {
+      "max_usage_MiB": 23475.0,
+      "utilization": {
+        "avg": 66.07188498402556,
+        "std": 4.363573690305835,
+        "max": 68.0
+      }
+    }
+  },
+  {
+    "data_path": "./out/MIS_NONE_AMINA/2025-05-24/00_14_26/07",
+    "prevalence": 0.04,
+    "n": 925,
+    "tp": 27,
+    "tn": 887,
+    "fp": 1,
+    "fn": 10,
+    "accuracy": 0.9881081081081081,
+    "balanced_accuracy": 0.9765687211339386,
+    "f1": 0.8307692307692307,
+    "recall": 0.7297297297297297,
+    "precision": 0.9642857142857143,
+    "specificity": 0.9888517279821628,
+    "err": 0,
+    "time_to_analyze": 12.449489167425781,
+    "GPU": {
+      "utilization": {
+        "avg": 86.62962962962963,
+        "std": 24.64180854081381,
+        "max": 100.0
+      },
+      "avg_temperature": 45.666666666666664
+    },
+    "VRAM": {
+      "max_usage_MiB": 15491.0,
+      "utilization": {
+        "avg": 43.7037037037037,
+        "std": 16.79917970776991,
+        "max": 58.0
+      }
+    }
+  },
+  {
+    "data_path": "./out/MIS_NONE_AMINA/2025-05-24/00_14_26/08",
+    "prevalence": 0.04,
+    "n": 975,
+    "tp": 27,
+    "tn": 924,
+    "fp": 12,
+    "fn": 12,
+    "accuracy": 0.9753846153846154,
+    "balanced_accuracy": 0.8397435897435898,
+    "f1": 0.6923076923076923,
+    "recall": 0.6923076923076923,
+    "precision": 0.6923076923076923,
+    "specificity": 0.9871794871794872,
+    "err": 0,
+    "time_to_analyze": 15.019595418125391,
+    "GPU": {
+      "utilization": {
+        "avg": 86.66153846153846,
+        "std": 22.741947010890556,
+        "max": 100.0
+      },
+      "avg_temperature": 44.92307692307692
+    },
+    "VRAM": {
+      "max_usage_MiB": 15801.0,
+      "utilization": {
+        "avg": 44.56923076923077,
+        "std": 17.9225497198791,
+        "max": 63.0
+      }
+    }
+  },
+  {
+    "data_path": "./out/MIS_NONE_AMINA/2025-05-24/00_14_26/09",
+    "prevalence": 0.04133333333333333,
+    "n": 750,
+    "tp": 28,
+    "tn": 714,
+    "fp": 5,
+    "fn": 3,
+    "accuracy": 0.9893333333333333,
+    "balanced_accuracy": 0.9221503740332193,
+    "f1": 0.875,
+    "recall": 0.9032258064516129,
+    "precision": 0.8484848484848485,
+    "specificity": 0.99581589958159,
+    "err": 2,
+    "time_to_analyze": 12.783483009086922,
+    "GPU": {
+      "utilization": {
+        "avg": 82.55357142857143,
+        "std": 22.628155946926864,
+        "max": 100.0
+      },
+      "avg_temperature": 42.17857142857143
+    },
+    "VRAM": {
+      "max_usage_MiB": 15193.0,
+      "utilization": {
+        "avg": 43.482142857142854,
+        "std": 17.511545356684564,
+        "max": 59.0
+      }
+    }
+  },
+  {
+    "data_path": "./out/MIS_NONE_AMINA/2025-05-24/00_14_26/10",
+    "prevalence": 0.04,
+    "n": 800,
+    "tp": 30,
+    "tn": 756,
+    "fp": 12,
+    "fn": 2,
+    "accuracy": 0.9825,
+    "balanced_accuracy": 0.8558235959291368,
+    "f1": 0.8108108108108109,
+    "recall": 0.9375,
+    "precision": 0.7142857142857143,
+    "specificity": 0.9973614775725593,
+    "err": 0,
+    "time_to_analyze": 12.839451444568112,
+    "GPU": {
+      "utilization": {
+        "avg": 82.94444444444444,
+        "std": 25.571517665623027,
+        "max": 100.0
+      },
+      "avg_temperature": 43.2962962962963
+    },
+    "VRAM": {
+      "max_usage_MiB": 15491.0,
+      "utilization": {
+        "avg": 44.7037037037037,
+        "std": 18.46223031726965,
+        "max": 62.0
+      }
+    }
+  }
+]

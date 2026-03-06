@@ -12,8 +12,8 @@
 
 # Data files
 #data/
-out/
-res/
+#out/
+#res/
 profiles/
 #archive/
 

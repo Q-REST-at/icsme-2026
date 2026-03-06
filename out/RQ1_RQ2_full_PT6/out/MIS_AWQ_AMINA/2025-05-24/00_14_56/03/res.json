@@ -1,0 +1,117 @@
+{
+    "meta": {
+        "req_path": "./data/AMINA/03/RE.csv",
+        "test_path": "./data/AMINA/03/ST.csv",
+        "mapping_path": "./data/AMINA/03/mapping.csv"
+    },
+    "data": {
+        "links": {
+            "S1": [
+                "281",
+                "362",
+                "406"
+            ],
+            "S11": [
+                "362"
+            ],
+            "S60": [
+                "251"
+            ],
+            "S72": [
+                "445",
+                "446"
+            ],
+            "S86": [],
+            "S89": [
+                "141"
+            ],
+            "S137": [],
+            "S148": [],
+            "S166": [
+                "277"
+            ],
+            "S172": [
+                "29"
+            ],
+            "S231": [],
+            "S234": [
+                "21"
+            ],
+            "S236": [
+                "23"
+            ],
+            "S241": [
+                "646"
+            ],
+            "B48": [
+                "471",
+                "472"
+            ],
+            "B71": [
+                "218"
+            ],
+            "B90": [
+                "274"
+            ],
+            "B93": [
+                "281"
+            ],
+            "B106": [
+                "642"
+            ],
+            "B108": [
+                "32"
+            ],
+            "B113": [
+                "26"
+            ],
+            "S543": [
+                "84"
+            ],
+            "S545": [
+                "86"
+            ],
+            "S548": [
+                "89"
+            ],
+            "S558": [
+                "99"
+            ]
+        },
+        "err": {
+            "S86": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 499, in _parse_list_output\n    links = [\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 500, in <listcomp>\n    self._tests_index[int(test.replace(RESTSpecification._TEST_INDEX_PREFIX, \"\"))]\nValueError: invalid literal for int() with base 10: '30 (for Cat1)'\n",
+                "[\"T-20\", \"T-25\", \"T-28\", \"T-30 (for Cat1)\", \"T-31 (for Cat1)\", \"T-32 (for Cat1)\", \"T-33 (for Cat1)\", \"T-34 (for Cat1)\", \"T-35 (for Cat1)\", \"T-20 (for Cat2)\", \"T-25 (for Cat2)\", \"T-28 (for Cat2)\", \"T-30 (for Cat2)\", \"T-31 (for Cat2)\", \"T-32 (for Cat2)\", \"T-33 (for Cat2)\", \"T-34 (for Cat2)\", \"T-35 (for Cat2)\"]"
+            ],
+            "S137": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n  File \"/opt/conda/lib/python3.10/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n  File \"/opt/conda/lib/python3.10/json/decoder.py\", line 340, in decode\n    raise JSONDecodeError(\"Extra data\", s, end)\njson.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 9)\n",
+                "[\"T-12\"]\n[\"T-13\"]\n[\"T-14\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-27\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-18\"]\n[\"T-19\"]\n[\"T-21\"]\n[\"T-22\"]\n[\"T-23\"]\n[\"T-24\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-29\"]\n[\"T-30\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-12\"]\n[\"T-13\"]\n[\"T-14\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-27\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-18\"]\n[\"T-19\"]\n[\"T-21\"]\n[\"T-22\"]\n[\"T-23\"]\n[\"T-24\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-29\"]\n[\"T-30\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-12\"]\n[\"T-13\"]\n[\"T-14\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-27\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-18\"]\n[\"T-19\"]\n[\"T-21\"]\n[\"T-22\"]\n[\"T-23\"]\n[\"T-24\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-29\"]\n[\"T-30\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-12\"]\n[\"T-13\"]\n[\"T-14\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-27\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-18\"]\n[\"T-19\"]\n[\"T-21\"]\n[\"T-22\"]\n[\"T-23\"]\n[\"T-24\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-29\"]\n[\"T-30\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-12\"]\n[\"T-13\"]\n[\"T-14\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-27\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-18\"]\n[\"T-19\"]\n[\"T-21\"]\n[\"T-22\"]\n[\"T-23\"]\n[\"T-24\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-29\"]\n[\"T-30\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-12\"]\n[\"T-13\"]\n[\"T-14\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-27\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-18\"]\n[\"T-19\"]\n[\"T-21\"]\n[\"T-22\"]\n[\"T-23\"]\n[\"T-24\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-29\"]\n[\"T-30\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-12\"]\n[\"T-13\"]\n[\"T-14\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-27\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-18\"]\n[\"T-19\"]\n[\"T-21\"]\n[\"T-22\"]\n[\"T-23\"]\n[\"T-24\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-29\"]\n[\"T-30\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-12\"]\n[\"T-13\"]\n[\"T-14\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-27\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-18\"]\n[\"T-19\"]\n[\"T-21\"]\n[\"T-22\"]\n[\"T-23\"]\n[\"T-24\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-29\"]\n[\"T-30\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-12\"]\n[\"T-13\"]\n[\"T-14\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-27\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-18\"]\n[\"T-19\"]\n[\"T-21\"]\n[\"T-22\"]\n[\"T-23\"]\n[\"T-24\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-29\"]\n[\"T-30\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-12\"]\n[\"T-13\"]\n[\"T-14\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-27\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-18\"]\n[\"T-19\"]\n[\"T-21\"]\n[\"T-22\"]\n[\"T-23\"]\n[\"T-24\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-29\"]\n[\"T-30\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-12\"]\n[\"T-13\"]\n[\"T-14\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-27\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-18\"]\n[\"T-19\"]\n[\"T-21\"]\n[\"T-22\"]\n[\"T-23\"]\n[\"T-24\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-29\"]\n[\"T-30\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-12\"]\n[\"T-13\"]\n[\"T-14\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-27\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-18\"]\n[\"T-19\"]\n[\"T-21\"]\n[\"T-22\"]\n[\"T-23\"]\n[\"T-24\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-29\"]\n[\"T-30\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-12\"]\n[\"T-13\"]\n[\"T-14\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-27\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-18\"]\n[\"T-19\"]\n[\"T-21\"]\n[\"T-22\"]\n[\"T-23\"]\n[\"T-24\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-29\"]\n[\"T-30\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-12\"]\n[\"T-13\"]\n[\"T-14\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-27\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-18\"]\n[\"T-19\"]\n[\"T-21\"]\n[\"T-22\"]\n[\"T-23\"]\n[\"T-24\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-29\"]\n[\"T-30\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-12\"]\n[\"T-13\"]\n[\"T-14\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-27\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-18\"]\n[\"T-19\"]\n[\"T-21\"]\n[\"T-22\"]\n[\"T-23\"]\n[\"T-24\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-29\"]\n[\"T-30\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-12\"]\n[\"T-13\"]\n[\"T-14\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-27\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-18\"]\n[\"T-19\"]\n[\"T-21\"]\n[\"T-22\"]\n[\"T-23\"]\n[\"T-24\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-29\"]\n[\"T-30\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-12\"]\n[\"T-13\"]\n[\"T-14\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-27\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-18\"]\n[\"T-19\"]\n[\"T-21\"]\n[\"T-22\"]\n[\"T-23\"]\n[\"T-24\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-29\"]\n[\"T-30\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-12\"]\n[\"T-13\"]\n[\"T-14\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-27\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-18\"]\n[\"T-19\"]\n[\"T-21\"]\n[\"T-22\"]\n[\"T-23\"]\n[\"T-24\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-29\"]\n[\"T-30\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-12\"]\n[\"T-13\"]\n[\"T-14\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-27\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-18\"]\n[\"T-19\"]\n[\"T-21\"]\n[\"T-22\"]\n[\"T-23\"]\n[\"T-24\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-29\"]\n[\"T-30\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n["
+            ],
+            "S148": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n  File \"/opt/conda/lib/python3.10/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n  File \"/opt/conda/lib/python3.10/json/decoder.py\", line 340, in decode\n    raise JSONDecodeError(\"Extra data\", s, end)\njson.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 9)\n",
+                "[\"T-14\"]\n[\"T-15\"]\n[\"T-23\"]\n[\"T-24\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n[\"T-18\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-31\"]\n[\"T-32\"]\n[\"T-33\"]\n[\"T-34\"]\n[\"T-35\"]\n[\"T-36\"]\n[\"T-37\"]\n[\"T-14\"]\n["
+            ],
+            "S231": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n  File \"/opt/conda/lib/python3.10/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n  File \"/opt/conda/lib/python3.10/json/decoder.py\", line 340, in decode\n    raise JSONDecodeError(\"Extra data\", s, end)\njson.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 8)\n",
+                "[\"T-0\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-28\"]\n[\"T-36\"]\n[\"T-37\"]\n\nThis requirement can be covered by the following test cases:\n\n* The test case \"T-0\" checks that the solution description details how encryption keys are managed. This test case covers the requirement as it relates to encryption keys management.\n* The test case \"T-25\" checks that the Metering Units can handle both primary and secondary recording of Metering Values. This test case covers the requirement as it relates to managing and administering encryption keys of the metering units.\n* The test case \"T-26\" checks that information regarding structure data for new set-up is sent from the integration interface to Collection Manager and that the metering unit is set up correctly in Collection Manager. This test case covers the requirement as it relates to managing and administering encryption keys of the metering units.\n* The test case \"T-36\" checks that HES is designed to be used with different types of computers, tablets, and smartphones. This test case covers the requirement as it relates to the metering system being able to manage and administer encryption keys of the metering units, as the ability to use different types of hardware is necessary for effective encryption key management.\n* The test case \"T-37\" checks that authentication is used when the Metering System interacts with neighboring systems. This test case covers the requirement as it relates to security, which is an important aspect of encryption key management."
+            ]
+        },
+        "time_to_analyze": 459.82792428554967,
+        "GPU": {
+            "utilization": {
+                "avg": 64.9896288209607,
+                "std": 6.5163242038144515,
+                "max": 100.0
+            },
+            "avg_temperature": 37.710152838427945
+        },
+        "VRAM": {
+            "max_usage_MiB": 5951.0,
+            "utilization": {
+                "avg": 21.016921397379914,
+                "std": 6.683549889418647,
+                "max": 69.0
+            }
+        }
+    }
+}

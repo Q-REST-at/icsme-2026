@@ -1,0 +1,332 @@
+[
+  {
+    "data_path": "./out/MIS_AQLM_MOZILLA/2025-05-24/15_38_45/01",
+    "prevalence": 0.04,
+    "n": 625,
+    "tp": 8,
+    "tn": 590,
+    "fp": 10,
+    "fn": 17,
+    "accuracy": 0.9568,
+    "balanced_accuracy": 0.7082189273293062,
+    "f1": 0.37209302325581395,
+    "recall": 0.32,
+    "precision": 0.4444444444444444,
+    "specificity": 0.9719934102141681,
+    "err": 14,
+    "time_to_analyze": 114.52027566614561,
+    "GPU": {
+      "utilization": {
+        "avg": 57.673289183222956,
+        "std": 13.80999756485892,
+        "max": 100.0
+      },
+      "avg_temperature": 36.19867549668874
+    },
+    "VRAM": {
+      "max_usage_MiB": 4207.0,
+      "utilization": {
+        "avg": 20.65783664459161,
+        "std": 8.717032036302754,
+        "max": 48.0
+      }
+    }
+  },
+  {
+    "data_path": "./out/MIS_AQLM_MOZILLA/2025-05-24/15_38_45/02",
+    "prevalence": 0.04,
+    "n": 525,
+    "tp": 1,
+    "tn": 498,
+    "fp": 6,
+    "fn": 20,
+    "accuracy": 0.9504761904761905,
+    "balanced_accuracy": 0.5521235521235521,
+    "f1": 0.07142857142857142,
+    "recall": 0.047619047619047616,
+    "precision": 0.14285714285714285,
+    "specificity": 0.9613899613899614,
+    "err": 22,
+    "time_to_analyze": 155.64999710721895,
+    "GPU": {
+      "utilization": {
+        "avg": 57.11974110032362,
+        "std": 11.604722894144443,
+        "max": 100.0
+      },
+      "avg_temperature": 35.94822006472492
+    },
+    "VRAM": {
+      "max_usage_MiB": 4693.0,
+      "utilization": {
+        "avg": 20.475728155339805,
+        "std": 7.372705359293808,
+        "max": 48.0
+      }
+    }
+  },
+  {
+    "data_path": "./out/MIS_AQLM_MOZILLA/2025-05-24/15_38_45/03",
+    "prevalence": 0.04,
+    "n": 500,
+    "tp": 3,
+    "tn": 449,
+    "fp": 31,
+    "fn": 17,
+    "accuracy": 0.904,
+    "balanced_accuracy": 0.525877303711184,
+    "f1": 0.11111111111111112,
+    "recall": 0.15,
+    "precision": 0.08823529411764706,
+    "specificity": 0.9635193133047211,
+    "err": 17,
+    "time_to_analyze": 613.931093843421,
+    "GPU": {
+      "utilization": {
+        "avg": 57.94156109521864,
+        "std": 7.45618554468604,
+        "max": 100.0
+      },
+      "avg_temperature": 35.274213322435635
+    },
+    "VRAM": {
+      "max_usage_MiB": 4531.0,
+      "utilization": {
+        "avg": 21.328156926849204,
+        "std": 4.976128213607283,
+        "max": 48.0
+      }
+    }
+  },
+  {
+    "data_path": "./out/MIS_AQLM_MOZILLA/2025-05-24/15_38_45/04",
+    "prevalence": 0.04,
+    "n": 500,
+    "tp": 5,
+    "tn": 418,
+    "fp": 62,
+    "fn": 15,
+    "accuracy": 0.846,
+    "balanced_accuracy": 0.5199924166695391,
+    "f1": 0.11494252873563218,
+    "recall": 0.25,
+    "precision": 0.07462686567164178,
+    "specificity": 0.9653579676674365,
+    "err": 14,
+    "time_to_analyze": 343.8704367065802,
+    "GPU": {
+      "utilization": {
+        "avg": 60.961228968544255,
+        "std": 8.709015924396988,
+        "max": 100.0
+      },
+      "avg_temperature": 35.98171177761522
+    },
+    "VRAM": {
+      "max_usage_MiB": 4483.0,
+      "utilization": {
+        "avg": 23.204096561814193,
+        "std": 5.618030548768095,
+        "max": 48.0
+      }
+    }
+  },
+  {
+    "data_path": "./out/MIS_AQLM_MOZILLA/2025-05-24/15_38_45/05",
+    "prevalence": 0.04,
+    "n": 575,
+    "tp": 5,
+    "tn": 516,
+    "fp": 36,
+    "fn": 18,
+    "accuracy": 0.9060869565217391,
+    "balanced_accuracy": 0.5441216771718279,
+    "f1": 0.15625,
+    "recall": 0.21739130434782608,
+    "precision": 0.12195121951219512,
+    "specificity": 0.9662921348314607,
+    "err": 17,
+    "time_to_analyze": 937.4580018247943,
+    "GPU": {
+      "utilization": {
+        "avg": 63.88249464668094,
+        "std": 6.725670918492335,
+        "max": 100.0
+      },
+      "avg_temperature": 36.50856531049251
+    },
+    "VRAM": {
+      "max_usage_MiB": 4607.0,
+      "utilization": {
+        "avg": 25.730995717344754,
+        "std": 4.37856072566795,
+        "max": 47.0
+      }
+    }
+  },
+  {
+    "data_path": "./out/MIS_AQLM_MOZILLA/2025-05-24/15_38_45/06",
+    "prevalence": 0.04,
+    "n": 575,
+    "tp": 0,
+    "tn": 547,
+    "fp": 5,
+    "fn": 23,
+    "accuracy": 0.951304347826087,
+    "balanced_accuracy": 0.47982456140350876,
+    "f1": 0.0,
+    "recall": 0.0,
+    "precision": 0.0,
+    "specificity": 0.9596491228070175,
+    "err": 22,
+    "time_to_analyze": 959.9705316661857,
+    "GPU": {
+      "utilization": {
+        "avg": 64.9650130548303,
+        "std": 6.7307527498889534,
+        "max": 100.0
+      },
+      "avg_temperature": 36.465535248041775
+    },
+    "VRAM": {
+      "max_usage_MiB": 4673.0,
+      "utilization": {
+        "avg": 26.05900783289817,
+        "std": 4.458645011452138,
+        "max": 48.0
+      }
+    }
+  },
+  {
+    "data_path": "./out/MIS_AQLM_MOZILLA/2025-05-24/15_38_45/07",
+    "prevalence": 0.04,
+    "n": 550,
+    "tp": 4,
+    "tn": 488,
+    "fp": 40,
+    "fn": 18,
+    "accuracy": 0.8945454545454545,
+    "balanced_accuracy": 0.5276679841897233,
+    "f1": 0.12121212121212123,
+    "recall": 0.18181818181818182,
+    "precision": 0.09090909090909091,
+    "specificity": 0.9644268774703557,
+    "err": 13,
+    "time_to_analyze": 77.18393093161285,
+    "GPU": {
+      "utilization": {
+        "avg": 61.28712871287129,
+        "std": 15.9902722707065,
+        "max": 100.0
+      },
+      "avg_temperature": 37.61056105610561
+    },
+    "VRAM": {
+      "max_usage_MiB": 4607.0,
+      "utilization": {
+        "avg": 22.782178217821784,
+        "std": 10.154701348541325,
+        "max": 48.0
+      }
+    }
+  },
+  {
+    "data_path": "./out/MIS_AQLM_MOZILLA/2025-05-24/15_38_45/08",
+    "prevalence": 0.04,
+    "n": 525,
+    "tp": 0,
+    "tn": 480,
+    "fp": 24,
+    "fn": 21,
+    "accuracy": 0.9142857142857143,
+    "balanced_accuracy": 0.47904191616766467,
+    "f1": 0.0,
+    "recall": 0.0,
+    "precision": 0.0,
+    "specificity": 0.9580838323353293,
+    "err": 23,
+    "time_to_analyze": 250.62066069198772,
+    "GPU": {
+      "utilization": {
+        "avg": 62.48743718592965,
+        "std": 10.102920716647503,
+        "max": 100.0
+      },
+      "avg_temperature": 36.882412060301505
+    },
+    "VRAM": {
+      "max_usage_MiB": 4345.0,
+      "utilization": {
+        "avg": 24.162814070351757,
+        "std": 6.452396815805325,
+        "max": 48.0
+      }
+    }
+  },
+  {
+    "data_path": "./out/MIS_AQLM_MOZILLA/2025-05-24/15_38_45/09",
+    "prevalence": 0.04,
+    "n": 450,
+    "tp": 1,
+    "tn": 427,
+    "fp": 5,
+    "fn": 17,
+    "accuracy": 0.9511111111111111,
+    "balanced_accuracy": 0.5641891891891891,
+    "f1": 0.08333333333333333,
+    "recall": 0.05555555555555555,
+    "precision": 0.16666666666666666,
+    "specificity": 0.9617117117117117,
+    "err": 21,
+    "time_to_analyze": 451.74175408063456,
+    "GPU": {
+      "utilization": {
+        "avg": 60.31406336853808,
+        "std": 8.379073534817417,
+        "max": 100.0
+      },
+      "avg_temperature": 35.51695386325736
+    },
+    "VRAM": {
+      "max_usage_MiB": 4527.0,
+      "utilization": {
+        "avg": 22.291828793774318,
+        "std": 5.58739791924074,
+        "max": 48.0
+      }
+    }
+  },
+  {
+    "data_path": "./out/MIS_AQLM_MOZILLA/2025-05-24/15_38_45/10",
+    "prevalence": 0.04,
+    "n": 475,
+    "tp": 5,
+    "tn": 438,
+    "fp": 18,
+    "fn": 14,
+    "accuracy": 0.9326315789473684,
+    "balanced_accuracy": 0.5932089265101962,
+    "f1": 0.23809523809523808,
+    "recall": 0.2631578947368421,
+    "precision": 0.21739130434782608,
+    "specificity": 0.9690265486725663,
+    "err": 13,
+    "time_to_analyze": 77.97889582952484,
+    "GPU": {
+      "utilization": {
+        "avg": 54.98705501618123,
+        "std": 15.839694939594986,
+        "max": 100.0
+      },
+      "avg_temperature": 35.689320388349515
+    },
+    "VRAM": {
+      "max_usage_MiB": 4367.0,
+      "utilization": {
+        "avg": 18.812297734627833,
+        "std": 10.674510431398122,
+        "max": 50.0
+      }
+    }
+  }
+]

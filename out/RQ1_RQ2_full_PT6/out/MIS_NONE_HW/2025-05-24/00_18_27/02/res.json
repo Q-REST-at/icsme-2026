@@ -1,0 +1,63 @@
+{
+    "meta": {
+        "req_path": "./data/HealthWatcher/02/RE.csv",
+        "test_path": "./data/HealthWatcher/02/ST.csv",
+        "mapping_path": "./data/HealthWatcher/02/mapping.csv"
+    },
+    "data": {
+        "links": {
+            "FR01": [],
+            "FR02": [
+                "T-2"
+            ],
+            "FR10": [
+                "T-3"
+            ],
+            "FR11": [
+                "T-4",
+                "T-5",
+                "T-6",
+                "T-7"
+            ],
+            "FR12": [
+                "T-2"
+            ],
+            "FR13": [
+                "T-2"
+            ],
+            "FR14": [
+                "T-3",
+                "T-4"
+            ],
+            "FR15": [
+                "T-2"
+            ],
+            "FR16": [
+                "T-3"
+            ]
+        },
+        "err": {
+            "FR01": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n  File \"/opt/conda/lib/python3.10/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n  File \"/opt/conda/lib/python3.10/json/decoder.py\", line 340, in decode\n    raise JSONDecodeError(\"Extra data\", s, end)\njson.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 8)\n",
+                "[\"T-0\"]\n[\"T-1\"]\n[\"T-4\"]\n[\"T-7\"]"
+            ]
+        },
+        "time_to_analyze": 10.969480651197955,
+        "GPU": {
+            "utilization": {
+                "avg": 76.57692307692308,
+                "std": 30.360801711137118,
+                "max": 99.0
+            },
+            "avg_temperature": 35.78846153846154
+        },
+        "VRAM": {
+            "max_usage_MiB": 15531.0,
+            "utilization": {
+                "avg": 44.55769230769231,
+                "std": 24.71596567557129,
+                "max": 63.0
+            }
+        }
+    }
+}

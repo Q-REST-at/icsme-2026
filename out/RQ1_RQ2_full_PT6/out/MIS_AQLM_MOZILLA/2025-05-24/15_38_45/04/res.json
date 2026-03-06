@@ -1,0 +1,189 @@
+{
+    "meta": {
+        "req_path": "./data/Mozilla/04/RE.csv",
+        "test_path": "./data/Mozilla/04/ST.csv",
+        "mapping_path": "./data/Mozilla/04/mapping.csv"
+    },
+    "data": {
+        "links": {
+            "R-10": [],
+            "R-14": [],
+            "R-16": [],
+            "R-19": [],
+            "R-36": [
+                "T-36",
+                "T-214"
+            ],
+            "R-37": [
+                "T-37"
+            ],
+            "R-41": [],
+            "R-52": [
+                "T-10",
+                "T-14",
+                "T-16",
+                "T-19",
+                "T-36",
+                "T-37",
+                "T-41",
+                "T-52",
+                "T-69",
+                "T-99",
+                "T-115",
+                "T-130",
+                "T-174",
+                "T-180",
+                "T-184",
+                "T-214"
+            ],
+            "R-69": [],
+            "R-93": [
+                "T-324"
+            ],
+            "R-99": [
+                "T-16",
+                "T-19"
+            ],
+            "R-115": [],
+            "R-130": [],
+            "R-165": [],
+            "R-171": [
+                "T-184",
+                "T-214"
+            ],
+            "R-174": [
+                "T-214",
+                "T-304"
+            ],
+            "R-180": [
+                "T-324"
+            ],
+            "R-184": [
+                "T-10",
+                "T-14",
+                "T-16",
+                "T-19",
+                "T-36",
+                "T-37",
+                "T-41",
+                "T-52",
+                "T-69",
+                "T-99",
+                "T-115",
+                "T-130",
+                "T-174",
+                "T-180",
+                "T-184",
+                "T-214",
+                "T-224",
+                "T-253",
+                "T-304"
+            ],
+            "R-190": [
+                "T-10",
+                "T-14"
+            ],
+            "R-214": [],
+            "R-224": [
+                "T-10",
+                "T-14",
+                "T-16",
+                "T-19",
+                "T-36",
+                "T-37",
+                "T-41",
+                "T-52",
+                "T-69",
+                "T-99",
+                "T-115",
+                "T-130",
+                "T-174",
+                "T-180",
+                "T-184",
+                "T-214",
+                "T-224",
+                "T-253",
+                "T-304"
+            ],
+            "R-253": [],
+            "R-293": [],
+            "R-304": [],
+            "R-324": []
+        },
+        "err": {
+            "R-10": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n            ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n",
+                "The test cases in the file \"tests.json\" that test the requirement \"Verify that changes to an item are saved without loss of item integrity\" are: T-0, T-1, T-2, T-3, T-4, T-5, T-6, T-7, T-8, T-9, T-10, T-12, T-13, T-14, T-15, T-16."
+            ],
+            "R-14": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n            ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 340, in decode\n    raise JSONDecodeError(\"Extra data\", s, end)\njson.decoder.JSONDecodeError: Extra data: line 1 column 9 (char 8)\n",
+                "The test cases in the file \"tests.json\" that test the requirement \"Save State\" are:\n\n[\"T-0\"] and [\"T-1\"]\n\nThese test cases test the requirement \"Save State\" by testing the functionality of saving and deleting bookmarks. They do not test the functionality of saving state over restart/crash."
+            ],
+            "R-16": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n            ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n",
+                "The test cases in the file \"tests.json\" are testing the requirement if a user can change the name of a bookmark without using the bookmarks properties dialog. Test case T-2 is testing this requirement."
+            ],
+            "R-19": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n            ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n",
+                "The test cases in the file \"tests.json\" that test the requirement \"Verify that columns are resizable to show/hide more of entries\" are:\n\n- T-3\n- T-12\n- T-15\n- T-18\n- T-19\n- T-20\n- T-21\n- T-22\n- T-23\n- T-24\n- T-25\n- T-26\n- T-27\n- T-28\n- T-29\n- T-30\n- T-31\n- T-32\n- T-33\n- T-34\n- T-35\n- T-36\n- T-37\n- T-38\n- T-39\n- T-40\n- T-41\n- T-42\n- T-43\n- T-44\n- T-45\n- T-46\n- T-47\n- T-48\n- T-49\n- T-50\n- T-51\n- T-52\n- T-53\n- T-54\n- T-55\n- T-56\n- T-57\n- T-58\n- T-59\n- T-60\n- T-61\n- T-62\n- T-63\n- T-64\n- T-65\n- T-66\n- T-67\n- T-68\n- T-69\n- T-70\n- T-71\n- T-72\n- T-73\n- T-74\n- T-75\n- T-76\n- T-77\n- T-78\n- T-79\n- T-80\n- T-81\n- T-82\n- T-83\n- T-84\n- T-85\n- T-86\n- T-87\n- T-88\n- T-89\n- T-90\n- T-91\n- T-92\n- T-93\n- T-94\n- T-95\n- T-96\n- T-97\n- T-98\n- T-99\n- T-100\n\nThese test cases test the requirement \"Verify that columns are resizable to show/hide more of entries\" by testing the ability to resize columns in various browsers and observe the effects on the content of the columns."
+            ],
+            "R-41": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n            ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n",
+                "The test cases in the file \"tests.json\" are testing the following requirements:\n\n- Test case T-0: Testing the edit properties feature\n- Test case T-1: Testing the ability to add and delete bookmarks\n- Test case T-2: Testing the ability to rename bookmarks\n- Test case T-3: Testing the ability to resize columns by dragging them\n- Test case T-4: Testing the ability to save form data from the edit menu\n- Test case T-5: Testing the ability to copy images from web pages\n- Test case T-6: Testing the ability to drag links from one browser window to another\n- Test case T-7: Testing the ability to save passwords from the password manager\n- Test case T-8: Testing the ability to save and delete bookmarks\n- Test case T-9: Testing the ability to rename columns\n- Test case T-10: Testing the ability to save a form's data from the edit menu\n- Test case T-11: Testing the ability to drag text or image links from one browser window to another\n- Test case T-12: Testing the ability to save passwords from the password manager for different sites\n- Test case T-13: Testing the ability to remove saved passwords from the password manager\n- Test case T-14: Testing the ability to remove a site and username from the passwords never saved section of password manager\n- Test case T-15: Testing the ability to resize columns by dragging them\n- Test case T-16: Testing the ability to verify that Netscape Technical Support displays correctly\n- Test case T-17: Testing the ability to determine if columns are resizable by dragging them\n- Test case T-18: Testing the ability to verify that when you disable password manager from the preferences panel, you no longer are asked if you would like to save passwords and longer get prefilled info on sites\n- Test case T-19: Testing the ability to determine that Quicktime movies play properly\n\nI cannot add any text before or after the brackets. I can only answer in the form you provided."
+            ],
+            "R-69": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n            ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 340, in decode\n    raise JSONDecodeError(\"Extra data\", s, end)\njson.decoder.JSONDecodeError: Extra data: line 1 column 9 (char 8)\n",
+                "The test cases in the file \"tests.json\" that test the requirement \"Save Form Data - dialog yes\" are:\n\n[\"T-8\"] and [\"T-15\"]"
+            ],
+            "R-115": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n            ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n",
+                "The test cases in the file \"tests.json\" are testing the requirement \"Determine whether Netscape Technical Support displays correctly\" by testing various aspects of the browser's functionality, such as the search engine, toolbars, and the ability to change the theme. Here are some test cases that meet the requirement:\n\n1. Test case \"T-11\": This testcase tests the ability of Netscape Technical Support to display the Help and Support Center correctly, including the links to Communicator 4.x, Netscape 6, International Browsers, and the Help page for Communicator 4.x.\n2. Test case \"T-12\": This testcase tests the ability of Netscape Technical Support to display the up and down arrow keys correctly when navigating the Help menu.\n3. Test case \"T-13\": This testcase tests the ability of Netscape Technical Support to display the correct number of columns when resizing columns in the browser window.\n4. Test case \"T-14\": This testcase tests the ability of Netscape Technical Support to save passwords correctly and not ask for prefilled information on sites.\n5. Test case \"T-15\": This testcase tests the ability of Netscape Technical Support to resize columns by dragging them to an arbitrary size.\n6. Test case \"T-16\": This testcase tests the ability of Netscape Technical Support to display the correct number of columns when dragging the separator between the \"Name\" and \"URL\" columns.\n7. Test case \"T-17\": This testcase tests the ability of Netscape Technical Support to display the correct number of columns when dragging the separator between the \"Name\" and \"URL\" columns in different directions.\n8. Test case \"T-18\": This testcase tests the ability of Netscape Technical Support to display the correct number of columns when dragging the separator between the \"Name\" and \"URL\" columns in both directions.\n9. Test case \"T-19\": This testcase tests the ability of Netscape Technical Support to save passwords correctly and not display them in the password manager.\n10. Test case \"T-20\": This testcase tests the ability of Netscape Technical Support to display the correct number of columns when dragging the separator between the \"Name\" and \"URL\" columns in different directions and at different angles.\n\nI hope this helps! Let me know if you have any other questions or if there's anything else I can assist you with."
+            ],
+            "R-130": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n            ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n",
+                "The test cases in the file \"tests.json\" that test the requirement \"Verify that columns are resizable to show/hide more of entries\" are:\n\n- T-3\n- T-12\n- T-15\n- T-18\n- T-19\n- T-20\n- T-21\n- T-22\n- T-23\n- T-24\n- T-25\n- T-26\n- T-27\n- T-28\n- T-29\n- T-30\n- T-31\n- T-32\n- T-33\n- T-34\n- T-35\n- T-36\n- T-37\n- T-38\n- T-39\n- T-40\n- T-41\n- T-42\n- T-43\n- T-44\n- T-45\n- T-46\n- T-47\n- T-48\n- T-49\n- T-50\n- T-51\n- T-52\n- T-53\n- T-54\n- T-55\n- T-56\n- T-57\n- T-58\n- T-59\n- T-60\n- T-61\n- T-62\n- T-63\n- T-64\n- T-65\n- T-66\n- T-67\n- T-68\n- T-69\n- T-70\n- T-71\n- T-72\n- T-73\n- T-74\n- T-75\n- T-76\n- T-77\n- T-78\n- T-79\n- T-80\n- T-81\n- T-82\n- T-83\n- T-84\n- T-85\n- T-86\n- T-87\n- T-88\n- T-89\n- T-90\n- T-91\n- T-92\n- T-93\n- T-94\n- T-95\n- T-96\n- T-97\n- T-98\n- T-99\n- T-100\n- T-101\n- T-102\n- T-103\n- T-104\n- T-105\n- T-106\n- T-107\n- T-108\n- T-110\n- T-111\n- T-112\n- T-113\n- T-114\n- T-115\n- T-116\n- T-117\n- T-118\n- T-119\n- T-120\n- T-121\n- T-122\n- T-123\n- T-124\n- T-125\n- T-126\n- T-127\n- T-128\n- T-129\n- T-130\n- T-131\n- T-132\n- T-133\n- T-134\n- T-135\n- T-136\n- T-137\n- T-138\n- T-139\n- T-140\n- T-141\n- T-142\n- T-143\n- T-144\n- T-145\n- T-146\n- T-147\n- T-148\n- T-149\n- T-150\n- T-151\n- T-152\n- T-153\n- T-154\n- T-155\n- T-156\n- T-157\n- T-158\n- T-159\n- T-160\n- T-161\n- T-162\n- T-163\n- T-164\n- T-165\n- T-166\n- T-167\n- T-168\n- T-169\n- T-170\n- T-171\n- T-172\n- T-173\n- T-174\n- T-175\n- T-176\n- T-177\n- T-178\n- T-179\n- T-180\n- T-181\n- T-182\n- T-183\n- T-184\n- T-185\n- T-186\n- T-187\n- T-188\n- T-189\n- T-190\n- T-191\n- T-192\n- T-193\n- T-194\n- T-195\n- T-196\n- T-197\n- T-198\n- T-199\n- T-200\n- T-201\n- T-202\n- T-203\n- T-204\n- T-205\n- T-206\n- T-207\n- T-208\n- T-209\n- T-210\n- T-211\n- T-212\n- T-213\n- T-214\n- T-215\n- T-216\n- T-217\n- T-218\n- T-219\n- T-220\n- T-221\n- T-222\n- T-223\n- T-224\n- T-225\n- T-226\n- T-227\n- T-228\n- T-229\n- T-230\n- T-231\n- T-232\n- T-233\n- T-234\n- T-235\n- T-236\n- T-237\n- T-238\n- T-239\n- T-240\n- T-241\n- T-242\n- T-243\n- T-244\n- T-245\n- T-246\n- T-247\n- T-248\n- T-249\n- T-250\n- T-251\n- T-252\n- T-253\n- T-254\n- T-255\n- T-256\n- T-257\n- T-258\n- T-259\n- T-260\n- T-261\n- T-262\n- T-263\n- T-264\n- T-265\n- T-266\n- T-267\n- T-268\n- T-269\n- T-270\n- T-271\n- T-272\n- T-273\n- T-274\n- T-275\n- T-276\n- T-277\n- T-278\n- T-279\n- T-280\n- T-281\n- T-282\n- T-283\n- T-284\n- T-285\n- T-286\n- T-287\n- T-288\n- T-289\n- T-290\n- T-291\n- T-292\n- T-293\n- T-294\n- T-295\n- T-296\n- T-297\n- T-298\n- T-299\n- T-300\n- T-301\n- T-302\n- T-303\n- T-304\n- T-305\n- T-306\n- T-307\n- T-308\n- T-309\n- T-310\n- T-311\n- T-312\n- T-313\n- T-314\n- T-315\n- T-316\n- T-317\n- T-318\n- T-319\n- T-320\n- T-321\n- T-322\n- T-323\n- T-324\n- T-325\n- T-326\n- T-327\n- T-328\n- T-329\n- T-330\n- T-331\n- T-332\n- T-333\n- T-334\n- T-335\n- T-336\n- T-337\n- T-338\n- T-339\n- T-340\n- T-341\n- T-342\n- T-343\n- T-344\n- T-345\n- T-346\n- T-347\n- T-348\n- T-349\n- T-350\n- T-351\n- T-352\n- T-353\n- T-354\n- T-355\n- T-356\n- T-357\n- T-358\n- T-359\n- T-360\n- T-361\n- T-362\n- T-363\n- T-364\n- T-365\n- T-366\n- T-367\n- T-368\n- T-369\n- T-370\n- T-371\n- T-372\n- T-373\n- T-374\n- T-375\n- T-376\n- T-377\n- T-378\n- T-379\n- T-380\n- T-381\n- T-382\n- T-383\n- T-384\n- T-385\n- T-386\n- T-387\n- T-388\n- T-389\n- T-390\n- T-391\n- T-392\n- T-393\n- T-394\n- T-395\n- T-396\n- T-397\n- T-398\n- T-399\n- T-400\n- T-401\n- T-402\n- T-403\n- T-404\n- T-405\n- T-406\n- T-407\n- T-408\n- T-409\n- T-410\n- T-411\n- T-412\n- T-413\n- T-414\n- T-415\n- T-416\n- T-417\n- T-418\n- T-419\n- T-420\n- T-421\n- T-422\n- T-423\n- T-424\n- T-425\n- T-426\n- T-427\n- T-428\n- T-429\n- T-430\n- T-431\n- T-432\n- T-433\n- T-434\n- T-435\n- T-436\n- T-437\n- T-438\n- T-439\n- T-440\n- T-441\n- T-442\n- T-443\n- T-444\n- T-445\n- T-446\n- T-447\n- T-448\n- T-449\n- T-450\n- T-451\n- T-452\n- T-453\n- T-454\n- T-455\n- T-456\n- T-457\n- T-458\n- T-459\n- T-460\n- T-461\n- T-462\n- T-463\n- T-464\n- T-465\n- T-466\n- T-467\n- T-468\n- T-469\n- T-470\n- T-471\n- T-472\n- T-473\n- T-474\n- T-475\n- T-476\n- T-477\n- T-478\n- T-479\n- T-480\n- T-481\n- T-482\n- T-483\n- T-484\n- T-485\n- T-486\n- T-487\n- T-488\n- T-489\n- T-490\n- T-491\n- T-492\n- T-493\n- T-494\n- T-495\n- T-496\n- T-497\n- T-498\n- T-499\n- T-500\n- T-501\n- T-502\n- T-503\n- T-504\n- T-505\n- T-506\n- T-507\n- T-508\n- T-509\n- T-510\n- T-511\n- T-512\n- T-513\n- T-514\n- T-515\n- T-516\n- T-517\n- T-518\n- T-519\n- T-520\n- T-521\n- T-522\n- T-523\n- T-524\n- T-525\n- T-526\n- T-527\n- T-528\n- T-529\n- T-530\n- T-531\n- T-532\n- T-533\n- T-534\n- T-535\n- T-536\n- T-537\n- T-538\n- T-539\n- T-540\n- T-541\n- T-542\n- T-543\n- T-544\n- T-545\n- T-546\n- T-547\n- T-548\n- T-549\n- T-550\n- T-551\n- T-552\n- T-553\n- T-554\n- T-555\n- T-556\n- T-557\n- T-558\n- T-559\n- T-560\n- T-561\n- T-562\n- T-563\n- T-564\n- T-565\n- T-566\n- T-567\n- T-568\n- T-569\n- T-570\n- T-571\n- T-572\n- T-573\n- T-574\n- T-575\n- T-576\n- T-577\n- T-578\n- T-579\n- T-580\n- T-581\n- T-582\n- T-583\n- T-584\n- T-585\n- T-586\n- T-587\n- T-588\n- T-589\n- T-590\n- T-591\n- T-592\n- T-593\n- T-594\n- T-595\n- T-596\n- T-597\n- T-598\n- T-599\n- T-601\n- T-602\n- T-603\n- T-604\n- T-605\n- T-606\n- T-607\n- T-608\n- T-"
+            ],
+            "R-165": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n            ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n",
+                "The test cases in the file \"tests.json\" are testing the requirement for replacing a forgotten master password by checking if the process is easier and more discoverable, and if encrypted information is lost when the user has forgotten their password. The test cases are:\n\n- T-0, T-1, T-2, T-3, T-4, T-5, T-6, T-7, T-8, T-9, T-10, T-11, T-12, T-13, T-14, T-15, T-16, T-17, T-18.\n\nSo, the test cases testing the requirement are:\n\n- T-12, T-13, T-15, T-16."
+            ],
+            "R-214": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n            ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 340, in decode\n    raise JSONDecodeError(\"Extra data\", s, end)\njson.decoder.JSONDecodeError: Extra data: line 1 column 10 (char 9)\n",
+                "The test cases in the file \"tests.json\" that test the requirement \"Determine if quicktime movies play properly\" are:\n\n[\"T-15\"] and [\"T-16\"]\n\nThe test case \"T-15\" tests the requirement by checking if the browser can load and play Quicktime movies from various websites and in different sizes. The test case \"T-16\" tests the requirement by checking if the browser can load and play Quicktime movies from a specific website and in different sizes using the browser's built-in media player."
+            ],
+            "R-253": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n            ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n",
+                "The test cases in the file \"tests.json\" are testing the requirement that the browser's toolbar buttons execute appropriately. The test cases are:\n\n- T-19: Verify that browser navigation toolbar buttons execute appropriately.\n\n- T-18: Determine that Quicktime movies play properly.\n- T-17: Verify that columns are resizable by dragging them to an arbitrary size.\n- T-16: Verify that when you disable password manager from the preferences panel, you no longer are asked if you would like to save passwords and longer get prefilled info on sites.\n- T-15: Verify that you can remove a site and username from the passwords never saved section of password manager.\n- T-14: Verify that you can save a form's data from the edit menu.\n- T-13: Confirm that the up arrow and down arrow keys function properly in help.\n- T-12: Confirm that Netscape Technical Support displays correctly.\n- T-11: Determine whether complicated rich text (such as massively nested tables) can be copied.\n- T-10: Verify that dragging a text or image link from one browser window to another opens the link in the target window.\n- T-9: Verify that files for installed helper applications are properly processed when dragged from the desktop.\n- T-8: Verify that bookmarks are added and deleted from the personal bookmarks file.\n- T-7: Verify that bookmarks can be renamed \"inline\" i.e. without having to use the bookmarks properties dialog.\n- T-6: Verify that columns are resizable by dragging them to an arbitrary size.\n- T-5: Verify that you can save a form's data from the edit menu.\n- T-4: Verify that columns are added and deleted from the personal bookmarks file.\n- T-3: Verify that bookmarks are added and deleted from the personal bookmarks file.\n- T-2: Verify that bookmarks can be renamed.\n- T-1: Verify that you can save a form's data from the edit menu.\n\nI cannot add any text before or after the brackets. I can only answer in the form you provided."
+            ],
+            "R-293": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 500, in _parse_list_output\n    self._tests_index[int(test.replace(RESTSpecification._TEST_INDEX_PREFIX, \"\"))]\n    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: list index out of range\n",
+                "The test cases in the file \"tests.json\" that test the requirement \"Attempt to view page info for plain text, xml, ftp listing, directory listing\" are: [\"T-22\", \"T-1\"]"
+            ],
+            "R-304": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n            ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n",
+                "The test cases in the file \"tests.json\" are testing the requirement that the browser's toolbar buttons execute appropriately under various applications, including Composer, Mail, News, Address book, and AIM. The test cases are:\n\n- \"T-19\"\n- \"T-18\"\n- \"T-17\"\n- \"T-16\"\n- \"T-15\"\n- \"T-14\"\n- \"T-13\"\n- \"T-12\"\n- \"T-11\"\n- \"T-10\"\n- \"T-9\"\n- \"T-8\"\n- \"T-7\"\n- \"T-6\"\n- \"T-5\"\n- \"T-4\"\n- \"T-3\"\n- \"T-2\"\n- \"T-1\"\n\nThese test cases are testing the requirement that the browser's toolbar buttons execute appropriately under various applications, including Composer, Mail, News, Address book, and AIM."
+            ],
+            "R-324": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 500, in _parse_list_output\n    self._tests_index[int(test.replace(RESTSpecification._TEST_INDEX_PREFIX, \"\"))]\n    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: list index out of range\n",
+                "The test cases in the file \"tests.json\" are testing the requirement for \"buttons\" functionality in Netscape Navigator. The following test cases test this requirement: [\"T-24\", \"T-1\", \"T-12\"]"
+            ]
+        },
+        "time_to_analyze": 343.8704367065802,
+        "GPU": {
+            "utilization": {
+                "avg": 60.961228968544255,
+                "std": 8.709015924396988,
+                "max": 100.0
+            },
+            "avg_temperature": 35.98171177761522
+        },
+        "VRAM": {
+            "max_usage_MiB": 4483.0,
+            "utilization": {
+                "avg": 23.204096561814193,
+                "std": 5.618030548768095,
+                "max": 48.0
+            }
+        }
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "meta": {
+        "req_path": "./data/BTHS/07/RE.csv",
+        "test_path": "./data/BTHS/07/ST.csv",
+        "mapping_path": "./data/BTHS/07/mapping.csv"
+    },
+    "data": {
+        "links": {
+            "4.2": [
+                "HSP/AG/IAC/BV-01-I",
+                "HSP/HS/IAC/BV-01-I",
+                "HSP/AG/OAC/BV-01-I",
+                "HSP/HS/OAC/BV-01-I",
+                "HSP/AG/ACT/BV-01-I",
+                "HSP/AG/ACT/BV-02-I",
+                "HSP/HS/ACT/BV-02-I"
+            ],
+            "4.2.1": [
+                "HSP/AG/IAC/BV-02-I",
+                "HSP/HS/IAC/BV-02-I"
+            ],
+            "4.2.2": [
+                "HSP/AG/IAC/BV-02-I",
+                "HSP/HS/IAC/BV-02-I"
+            ],
+            "4.3": [
+                "HSP/AG/IAC/BV-01-I",
+                "HSP/HS/IAC/BV-01-I",
+                "HSP/AG/OAC/BV-01-I",
+                "HSP/HS/OAC/BV-01-I",
+                "HSP/AG/ACT/BV-01-I",
+                "HSP/HS/ACT/BV-02-I"
+            ],
+            "4.5": [
+                "HSP/AG/ACR/BV-01-I",
+                "HSP/HS/ACR/BV-01-I",
+                "HSP/HS/ACR/BV-02-I",
+                "HSP/HS/ACT/BV-02-I"
+            ],
+            "4.6.1": [
+                "HSP/AG/ACT/BV-01-I",
+                "HSP/AG/ACT/BV-02-I",
+                "HSP/HS/ACT/BV-02-I"
+            ],
+            "4.6.2": [
+                "HSP/AG/ACT/BV-01-I",
+                "HSP/AG/ACT/BV-02-I",
+                "HSP/HS/ACT/BV-02-I"
+            ],
+            "4.7": [
+                "HSP/AG/RAV/BV-02-I",
+                "HSP/AG/RAV/BV-03-I",
+                "HSP/HS/RAV/BV-03-I"
+            ]
+        },
+        "err": {},
+        "time_to_analyze": 13.766627452103421,
+        "GPU": {
+            "utilization": {
+                "avg": 64.16,
+                "std": 21.253916805893372,
+                "max": 100.0
+            },
+            "avg_temperature": 37.26
+        },
+        "VRAM": {
+            "max_usage_MiB": 6089.0,
+            "utilization": {
+                "avg": 26.94,
+                "std": 20.585719242588876,
+                "max": 68.0
+            }
+        }
+    }
+}

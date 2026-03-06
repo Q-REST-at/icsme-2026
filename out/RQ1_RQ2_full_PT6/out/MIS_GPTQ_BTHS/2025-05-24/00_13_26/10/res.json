@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "req_path": "./data/BTHS/10/RE.csv",
+        "test_path": "./data/BTHS/10/ST.csv",
+        "mapping_path": "./data/BTHS/10/mapping.csv"
+    },
+    "data": {
+        "links": {
+            "4.2": [
+                "HSP/AG/IAC/BV-01-I",
+                "HSP/HS/IAC/BV-01-I",
+                "HSP/AG/OAC/BV-01-I",
+                "HSP/HS/OAC/BV-01-I",
+                "HSP/AG/ACT/BV-01-I",
+                "HSP/AG/ACT/BV-02-I"
+            ],
+            "4.2.1": [
+                "HSP/AG/IAC/BV-02-I",
+                "HSP/HS/IAC/BV-02-I"
+            ],
+            "4.2.2": [
+                "HSP/AG/IAC/BV-02-I",
+                "HSP/HS/IAC/BV-02-I"
+            ],
+            "4.3": [
+                "HSP/AG/IAC/BV-01-I",
+                "HSP/HS/IAC/BV-01-I",
+                "HSP/AG/OAC/BV-01-I",
+                "HSP/HS/OAC/BV-01-I",
+                "HSP/AG/ACT/BV-01-I",
+                "HSP/HS/ACT/BV-02-I"
+            ],
+            "4.5": [
+                "HSP/AG/ACR/BV-01-I",
+                "HSP/HS/ACR/BV-01-I",
+                "HSP/HS/ACR/BV-02-I"
+            ],
+            "4.6.1": [
+                "HSP/AG/ACT/BV-01-I",
+                "HSP/HS/ACT/BV-02-I"
+            ],
+            "4.6.2": [
+                "HSP/AG/ACT/BV-01-I",
+                "HSP/HS/ACT/BV-02-I"
+            ],
+            "4.7": [
+                "HSP/AG/RAV/BV-02-I",
+                "HSP/AG/RAV/BV-03-I",
+                "HSP/HS/RAV/BV-03-I"
+            ]
+        },
+        "err": {},
+        "time_to_analyze": 9.23793456191197,
+        "GPU": {
+            "utilization": {
+                "avg": 91.52941176470588,
+                "std": 13.301253743863596,
+                "max": 100.0
+            },
+            "avg_temperature": 41.85294117647059
+        },
+        "VRAM": {
+            "max_usage_MiB": 7175.0,
+            "utilization": {
+                "avg": 34.05882352941177,
+                "std": 9.45144265553914,
+                "max": 50.0
+            }
+        }
+    }
+}

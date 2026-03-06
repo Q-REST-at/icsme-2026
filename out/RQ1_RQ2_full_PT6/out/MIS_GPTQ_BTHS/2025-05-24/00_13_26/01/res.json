@@ -1,0 +1,78 @@
+{
+    "meta": {
+        "req_path": "./data/BTHS/01/RE.csv",
+        "test_path": "./data/BTHS/01/ST.csv",
+        "mapping_path": "./data/BTHS/01/mapping.csv"
+    },
+    "data": {
+        "links": {
+            "4.2": [
+                "HSP/AG/IAC/BV-01-I",
+                "HSP/HS/IAC/BV-01-I",
+                "HSP/AG/OAC/BV-01-I",
+                "HSP/HS/OAC/BV-01-I",
+                "HSP/AG/ACT/BV-01-I",
+                "HSP/AG/ACT/BV-02-I"
+            ],
+            "4.2.1": [
+                "HSP/AG/IAC/BV-02-I",
+                "HSP/HS/IAC/BV-02-I"
+            ],
+            "4.2.2": [
+                "HSP/AG/IAC/BV-02-I",
+                "HSP/HS/IAC/BV-02-I",
+                "HSP/AG/ACT/BV-01-I",
+                "HSP/AG/ACT/BV-02-I",
+                "HSP/HS/ACT/BV-02-I"
+            ],
+            "4.3": [
+                "HSP/AG/IAC/BV-01-I",
+                "HSP/HS/IAC/BV-01-I",
+                "HSP/AG/OAC/BV-01-I",
+                "HSP/HS/OAC/BV-01-I",
+                "HSP/AG/ACT/BV-01-I",
+                "HSP/HS/ACT/BV-02-I"
+            ],
+            "4.5": [
+                "HSP/AG/ACR/BV-01-I",
+                "HSP/HS/ACR/BV-01-I",
+                "HSP/HS/ACR/BV-02-I"
+            ],
+            "4.6.1": [
+                "HSP/AG/ACT/BV-01-I",
+                "HSP/HS/ACT/BV-02-I",
+                "HSP/AG/RAV/BV-02-I",
+                "HSP/AG/RAV/BV-03-I",
+                "HSP/HS/RAV/BV-03-I"
+            ],
+            "4.6.2": [
+                "HSP/AG/ACT/BV-01-I",
+                "HSP/AG/ACT/BV-02-I",
+                "HSP/HS/ACT/BV-02-I"
+            ],
+            "4.7": [
+                "HSP/AG/RAV/BV-02-I",
+                "HSP/AG/RAV/BV-03-I",
+                "HSP/HS/RAV/BV-03-I"
+            ]
+        },
+        "err": {},
+        "time_to_analyze": 9.346899933880195,
+        "GPU": {
+            "utilization": {
+                "avg": 91.11764705882354,
+                "std": 18.862765480401528,
+                "max": 100.0
+            },
+            "avg_temperature": 42.05882352941177
+        },
+        "VRAM": {
+            "max_usage_MiB": 7175.0,
+            "utilization": {
+                "avg": 35.55882352941177,
+                "std": 11.076021538414846,
+                "max": 50.0
+            }
+        }
+    }
+}

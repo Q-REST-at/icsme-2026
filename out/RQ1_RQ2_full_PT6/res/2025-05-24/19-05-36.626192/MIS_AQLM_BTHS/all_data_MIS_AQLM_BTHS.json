@@ -1,0 +1,332 @@
+[
+  {
+    "data_path": "./out/MIS_AQLM_BTHS/2025-05-24/00_13_56/01",
+    "prevalence": 0.16666666666666666,
+    "n": 120,
+    "tp": 0,
+    "tn": 100,
+    "fp": 0,
+    "fn": 20,
+    "accuracy": 0.8333333333333334,
+    "balanced_accuracy": 0.4166666666666667,
+    "f1": 0.0,
+    "recall": 0.0,
+    "precision": 0.0,
+    "specificity": 0.8333333333333334,
+    "err": 8,
+    "time_to_analyze": 576.9745882928837,
+    "GPU": {
+      "utilization": {
+        "avg": 58.39016963897347,
+        "std": 5.9229538972865905,
+        "max": 100.0
+      },
+      "avg_temperature": 34.53892996955198
+    },
+    "VRAM": {
+      "max_usage_MiB": 4805.0,
+      "utilization": {
+        "avg": 20.92996955197912,
+        "std": 4.127732372883864,
+        "max": 49.0
+      }
+    }
+  },
+  {
+    "data_path": "./out/MIS_AQLM_BTHS/2025-05-24/00_13_56/02",
+    "prevalence": 0.16666666666666666,
+    "n": 120,
+    "tp": 0,
+    "tn": 100,
+    "fp": 0,
+    "fn": 20,
+    "accuracy": 0.8333333333333334,
+    "balanced_accuracy": 0.4166666666666667,
+    "f1": 0.0,
+    "recall": 0.0,
+    "precision": 0.0,
+    "specificity": 0.8333333333333334,
+    "err": 8,
+    "time_to_analyze": 600.3319252801593,
+    "GPU": {
+      "utilization": {
+        "avg": 58.709030100334445,
+        "std": 6.216553667606382,
+        "max": 100.0
+      },
+      "avg_temperature": 34.35660535117057
+    },
+    "VRAM": {
+      "max_usage_MiB": 4677.0,
+      "utilization": {
+        "avg": 20.96697324414716,
+        "std": 4.289034138106748,
+        "max": 49.0
+      }
+    }
+  },
+  {
+    "data_path": "./out/MIS_AQLM_BTHS/2025-05-24/00_13_56/03",
+    "prevalence": 0.16666666666666666,
+    "n": 120,
+    "tp": 0,
+    "tn": 100,
+    "fp": 0,
+    "fn": 20,
+    "accuracy": 0.8333333333333334,
+    "balanced_accuracy": 0.4166666666666667,
+    "f1": 0.0,
+    "recall": 0.0,
+    "precision": 0.0,
+    "specificity": 0.8333333333333334,
+    "err": 8,
+    "time_to_analyze": 449.38321644603275,
+    "GPU": {
+      "utilization": {
+        "avg": 57.88659217877095,
+        "std": 6.474872021771378,
+        "max": 100.0
+      },
+      "avg_temperature": 34.04972067039106
+    },
+    "VRAM": {
+      "max_usage_MiB": 4805.0,
+      "utilization": {
+        "avg": 20.521787709497207,
+        "std": 4.367971894145311,
+        "max": 48.0
+      }
+    }
+  },
+  {
+    "data_path": "./out/MIS_AQLM_BTHS/2025-05-24/00_13_56/04",
+    "prevalence": 0.16666666666666666,
+    "n": 120,
+    "tp": 0,
+    "tn": 100,
+    "fp": 0,
+    "fn": 20,
+    "accuracy": 0.8333333333333334,
+    "balanced_accuracy": 0.4166666666666667,
+    "f1": 0.0,
+    "recall": 0.0,
+    "precision": 0.0,
+    "specificity": 0.8333333333333334,
+    "err": 8,
+    "time_to_analyze": 452.1282588765025,
+    "GPU": {
+      "utilization": {
+        "avg": 59.02330743618202,
+        "std": 6.24250894049145,
+        "max": 100.0
+      },
+      "avg_temperature": 34.55937846836848
+    },
+    "VRAM": {
+      "max_usage_MiB": 4805.0,
+      "utilization": {
+        "avg": 20.864039955604884,
+        "std": 4.369756859121782,
+        "max": 49.0
+      }
+    }
+  },
+  {
+    "data_path": "./out/MIS_AQLM_BTHS/2025-05-24/00_13_56/05",
+    "prevalence": 0.16666666666666666,
+    "n": 120,
+    "tp": 0,
+    "tn": 100,
+    "fp": 0,
+    "fn": 20,
+    "accuracy": 0.8333333333333334,
+    "balanced_accuracy": 0.4166666666666667,
+    "f1": 0.0,
+    "recall": 0.0,
+    "precision": 0.0,
+    "specificity": 0.8333333333333334,
+    "err": 8,
+    "time_to_analyze": 622.7409765999764,
+    "GPU": {
+      "utilization": {
+        "avg": 57.99074074074074,
+        "std": 5.891172636841231,
+        "max": 100.0
+      },
+      "avg_temperature": 34.34380032206119
+    },
+    "VRAM": {
+      "max_usage_MiB": 4805.0,
+      "utilization": {
+        "avg": 20.59098228663446,
+        "std": 4.033809890471914,
+        "max": 49.0
+      }
+    }
+  },
+  {
+    "data_path": "./out/MIS_AQLM_BTHS/2025-05-24/00_13_56/06",
+    "prevalence": 0.16666666666666666,
+    "n": 120,
+    "tp": 0,
+    "tn": 100,
+    "fp": 0,
+    "fn": 20,
+    "accuracy": 0.8333333333333334,
+    "balanced_accuracy": 0.4166666666666667,
+    "f1": 0.0,
+    "recall": 0.0,
+    "precision": 0.0,
+    "specificity": 0.8333333333333334,
+    "err": 8,
+    "time_to_analyze": 590.525972362142,
+    "GPU": {
+      "utilization": {
+        "avg": 58.62988115449915,
+        "std": 6.2060601971446525,
+        "max": 100.0
+      },
+      "avg_temperature": 34.30857385398981
+    },
+    "VRAM": {
+      "max_usage_MiB": 4805.0,
+      "utilization": {
+        "avg": 21.053480475382003,
+        "std": 4.220325978298428,
+        "max": 50.0
+      }
+    }
+  },
+  {
+    "data_path": "./out/MIS_AQLM_BTHS/2025-05-24/00_13_56/07",
+    "prevalence": 0.16666666666666666,
+    "n": 120,
+    "tp": 0,
+    "tn": 100,
+    "fp": 0,
+    "fn": 20,
+    "accuracy": 0.8333333333333334,
+    "balanced_accuracy": 0.4166666666666667,
+    "f1": 0.0,
+    "recall": 0.0,
+    "precision": 0.0,
+    "specificity": 0.8333333333333334,
+    "err": 8,
+    "time_to_analyze": 573.4641526038758,
+    "GPU": {
+      "utilization": {
+        "avg": 59.73972003499563,
+        "std": 6.140732228871867,
+        "max": 100.0
+      },
+      "avg_temperature": 34.51487314085739
+    },
+    "VRAM": {
+      "max_usage_MiB": 4805.0,
+      "utilization": {
+        "avg": 21.334645669291337,
+        "std": 4.2980325285168695,
+        "max": 49.0
+      }
+    }
+  },
+  {
+    "data_path": "./out/MIS_AQLM_BTHS/2025-05-24/00_13_56/08",
+    "prevalence": 0.16666666666666666,
+    "n": 120,
+    "tp": 0,
+    "tn": 100,
+    "fp": 0,
+    "fn": 20,
+    "accuracy": 0.8333333333333334,
+    "balanced_accuracy": 0.4166666666666667,
+    "f1": 0.0,
+    "recall": 0.0,
+    "precision": 0.0,
+    "specificity": 0.8333333333333334,
+    "err": 8,
+    "time_to_analyze": 592.8446390372701,
+    "GPU": {
+      "utilization": {
+        "avg": 57.87129551227773,
+        "std": 5.852517272301631,
+        "max": 100.0
+      },
+      "avg_temperature": 34.21380186282811
+    },
+    "VRAM": {
+      "max_usage_MiB": 4677.0,
+      "utilization": {
+        "avg": 20.698560541913633,
+        "std": 4.050788070525217,
+        "max": 48.0
+      }
+    }
+  },
+  {
+    "data_path": "./out/MIS_AQLM_BTHS/2025-05-24/00_13_56/09",
+    "prevalence": 0.16666666666666666,
+    "n": 120,
+    "tp": 0,
+    "tn": 100,
+    "fp": 0,
+    "fn": 20,
+    "accuracy": 0.8333333333333334,
+    "balanced_accuracy": 0.4166666666666667,
+    "f1": 0.0,
+    "recall": 0.0,
+    "precision": 0.0,
+    "specificity": 0.8333333333333334,
+    "err": 8,
+    "time_to_analyze": 733.9776297598146,
+    "GPU": {
+      "utilization": {
+        "avg": 59.278783737615306,
+        "std": 5.8091224035848255,
+        "max": 100.0
+      },
+      "avg_temperature": 34.63307140416809
+    },
+    "VRAM": {
+      "max_usage_MiB": 4805.0,
+      "utilization": {
+        "avg": 21.329005807994534,
+        "std": 4.082210854047602,
+        "max": 49.0
+      }
+    }
+  },
+  {
+    "data_path": "./out/MIS_AQLM_BTHS/2025-05-24/00_13_56/10",
+    "prevalence": 0.16666666666666666,
+    "n": 120,
+    "tp": 0,
+    "tn": 100,
+    "fp": 0,
+    "fn": 20,
+    "accuracy": 0.8333333333333334,
+    "balanced_accuracy": 0.4166666666666667,
+    "f1": 0.0,
+    "recall": 0.0,
+    "precision": 0.0,
+    "specificity": 0.8333333333333334,
+    "err": 8,
+    "time_to_analyze": 319.02774202730507,
+    "GPU": {
+      "utilization": {
+        "avg": 55.531864673485444,
+        "std": 6.407209244264038,
+        "max": 100.0
+      },
+      "avg_temperature": 33.91266719118804
+    },
+    "VRAM": {
+      "max_usage_MiB": 4677.0,
+      "utilization": {
+        "avg": 19.116443745082613,
+        "std": 4.344311723503131,
+        "max": 49.0
+      }
+    }
+  }
+]

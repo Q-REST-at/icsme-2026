@@ -1,0 +1,119 @@
+{
+    "meta": {
+        "req_path": "./data/AMINA/05/RE.csv",
+        "test_path": "./data/AMINA/05/ST.csv",
+        "mapping_path": "./data/AMINA/05/mapping.csv"
+    },
+    "data": {
+        "links": {
+            "S12": [
+                "364"
+            ],
+            "S24": [
+                "43",
+                "44"
+            ],
+            "S70": [
+                "441",
+                "442"
+            ],
+            "S73": [
+                "447",
+                "448"
+            ],
+            "S117": [
+                "50"
+            ],
+            "S136": [
+                "219",
+                "238",
+                "615"
+            ],
+            "S143": [
+                "596"
+            ],
+            "S155": [
+                "263"
+            ],
+            "S172": [
+                "29"
+            ],
+            "S177": [
+                "352"
+            ],
+            "S231": [
+                "20",
+                "194"
+            ],
+            "S237": [
+                "219",
+                "238"
+            ],
+            "S259": [
+                "78"
+            ],
+            "B31": [
+                "328",
+                "330"
+            ],
+            "B33": [
+                "330"
+            ],
+            "B42": [
+                "339",
+                "340",
+                "341"
+            ],
+            "B62": [
+                "194"
+            ],
+            "B71": [
+                "218"
+            ],
+            "B85": [],
+            "B105": [
+                "194",
+                "328",
+                "330"
+            ],
+            "B113": [
+                "26"
+            ],
+            "S545": [
+                "86"
+            ],
+            "S549": [
+                "90"
+            ],
+            "S558": [
+                "99"
+            ],
+            "S560": [
+                "101"
+            ]
+        },
+        "err": {
+            "B85": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 499, in _parse_list_output\n    links = [\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 500, in <listcomp>\n    self._tests_index[int(test.replace(RESTSpecification._TEST_INDEX_PREFIX, \"\"))]\nIndexError: list index out of range\n",
+                "[\"T-16\", \"T-18\", \"T-19\", \"T-23\", \"T-24\", \"T-26\", \"T-27\", \"T-28\", \"T-30\", \"T-31\"]"
+            ]
+        },
+        "time_to_analyze": 14.696806134888902,
+        "GPU": {
+            "utilization": {
+                "avg": 91.33928571428571,
+                "std": 12.908456404746726,
+                "max": 100.0
+            },
+            "avg_temperature": 42.75
+        },
+        "VRAM": {
+            "max_usage_MiB": 6369.0,
+            "utilization": {
+                "avg": 34.982142857142854,
+                "std": 11.346591112317826,
+                "max": 51.0
+            }
+        }
+    }
+}

@@ -1,0 +1,116 @@
+{
+    "meta": {
+        "req_path": "./data/AMINA/04/RE.csv",
+        "test_path": "./data/AMINA/04/ST.csv",
+        "mapping_path": "./data/AMINA/04/mapping.csv"
+    },
+    "data": {
+        "links": {
+            "S1": [
+                "302",
+                "303",
+                "304",
+                "406"
+            ],
+            "S28": [
+                "485"
+            ],
+            "S56": [
+                "245"
+            ],
+            "S75": [
+                "451",
+                "452"
+            ],
+            "S77": [
+                "455",
+                "456"
+            ],
+            "S116": [
+                "49"
+            ],
+            "S139": [
+                "222"
+            ],
+            "S147": [
+                "255"
+            ],
+            "S148": [],
+            "S152": [
+                "260"
+            ],
+            "S155": [
+                "263"
+            ],
+            "S172": [
+                "29"
+            ],
+            "S221": [
+                "653"
+            ],
+            "S228": [
+                "33"
+            ],
+            "S231": [
+                "20"
+            ],
+            "B11": [
+                "302",
+                "303",
+                "304"
+            ],
+            "B33": [
+                "304",
+                "330"
+            ],
+            "B48": [
+                "471",
+                "472"
+            ],
+            "B71": [
+                "218"
+            ],
+            "B87": [
+                "271"
+            ],
+            "B91": [
+                "279"
+            ],
+            "B106": [
+                "642"
+            ],
+            "S546": [
+                "87"
+            ],
+            "S548": [
+                "89"
+            ],
+            "S558": [
+                "99"
+            ]
+        },
+        "err": {
+            "S148": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 489, in _parse_list_output\n    links = json.loads(curr_res)\n  File \"/opt/conda/lib/python3.10/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n  File \"/opt/conda/lib/python3.10/json/decoder.py\", line 340, in decode\n    raise JSONDecodeError(\"Extra data\", s, end)\njson.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 9)\n",
+                "[\"T-12\"]\n[\"T-13\"]\n[\"T-15\"]\n[\"T-18\"]\n[\"T-19\"]\n[\"T-20\"]\n[\"T-21\"]\n[\"T-22\"]\n[\"T-23\"]\n[\"T-24\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-27\"]\n[\"T-28\"]\n[\"T-30\"]\n[\"T-12\"]\n[\"T-13\"]\n[\"T-15\"]\n[\"T-18\"]\n[\"T-19\"]\n[\"T-20\"]\n[\"T-21\"]\n[\"T-22\"]\n[\"T-23\"]\n[\"T-24\"]\n[\"T-25\"]\n[\"T-26\"]\n[\"T-27\"]\n[\"T-28\"]"
+            ]
+        },
+        "time_to_analyze": 28.874505021609366,
+        "GPU": {
+            "utilization": {
+                "avg": 64.74545454545455,
+                "std": 18.05518368913409,
+                "max": 100.0
+            },
+            "avg_temperature": 39.14545454545455
+        },
+        "VRAM": {
+            "max_usage_MiB": 5541.0,
+            "utilization": {
+                "avg": 26.681818181818183,
+                "std": 19.954044366296856,
+                "max": 69.0
+            }
+        }
+    }
+}

@@ -1,0 +1,119 @@
+{
+    "meta": {
+        "req_path": "./data/AMINA/09/RE.csv",
+        "test_path": "./data/AMINA/09/ST.csv",
+        "mapping_path": "./data/AMINA/09/mapping.csv"
+    },
+    "data": {
+        "links": {
+            "S2": [
+                "35"
+            ],
+            "S12": [
+                "364"
+            ],
+            "S24": [
+                "43",
+                "44"
+            ],
+            "S73": [
+                "447",
+                "448"
+            ],
+            "S77": [
+                "455",
+                "456"
+            ],
+            "S111": [
+                "188"
+            ],
+            "S147": [
+                "255"
+            ],
+            "S152": [
+                "260"
+            ],
+            "S166": [
+                "277"
+            ],
+            "S172": [
+                "29"
+            ],
+            "S213": [
+                "56"
+            ],
+            "S228": [
+                "33"
+            ],
+            "S236": [
+                "23"
+            ],
+            "S237": [
+                "21",
+                "218",
+                "238",
+                "255"
+            ],
+            "B1": [
+                "293"
+            ],
+            "B15": [],
+            "B24": [
+                "319",
+                "331"
+            ],
+            "B34": [
+                "331"
+            ],
+            "B42": [
+                "339",
+                "340",
+                "341"
+            ],
+            "B61": [
+                "358"
+            ],
+            "B71": [
+                "218"
+            ],
+            "B85": [
+                "238",
+                "255"
+            ],
+            "B90": [
+                "274"
+            ],
+            "B105": [],
+            "S546": [
+                "87"
+            ]
+        },
+        "err": {
+            "B15": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 499, in _parse_list_output\n    links = [\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 500, in <listcomp>\n    self._tests_index[int(test.replace(RESTSpecification._TEST_INDEX_PREFIX, \"\"))]\nValueError: invalid literal for int() with base 10: '21-23'\n",
+                "[\"T-18\", \"T-19\", \"T-20\", \"T-21-T-23\", \"T-28\", \"T-29\", \"T-28\", \"T-29\", \"T-18\"]"
+            ],
+            "B105": [
+                "Traceback (most recent call last):\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 357, in to_local\n    links = self._parse_intermediary_output(raw_res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 409, in _parse_intermediary_output\n    return self._parse_list_output(res)\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 499, in _parse_list_output\n    links = [\n  File \"/mimer/NOBACKUP/groups/naiss2025-22-104/REST/REST-at/src/core/rest.py\", line 500, in <listcomp>\n    self._tests_index[int(test.replace(RESTSpecification._TEST_INDEX_PREFIX, \"\"))]\nValueError: invalid literal for int() with base 10: '21-23'\n",
+                "[\"T-3\", \"T-18\", \"T-21-T-23\"]"
+            ]
+        },
+        "time_to_analyze": 12.783483009086922,
+        "GPU": {
+            "utilization": {
+                "avg": 82.55357142857143,
+                "std": 22.628155946926864,
+                "max": 100.0
+            },
+            "avg_temperature": 42.17857142857143
+        },
+        "VRAM": {
+            "max_usage_MiB": 15193.0,
+            "utilization": {
+                "avg": 43.482142857142854,
+                "std": 17.511545356684564,
+                "max": 59.0
+            }
+        }
+    }
+}

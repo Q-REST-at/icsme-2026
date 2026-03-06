@@ -7,7 +7,6 @@ options(scipen = 50) # Show decimals instead of scientific notation (RStudio)
 #============================ LOAD EXPERIMENT DATA ============================#
 
 rq1_llm_df <- read.csv("./data/PT6_prompt/rq1_flat_df-PT6.csv")
-rq1_cosine_df <- read.csv("./data/rq1_flat_df-Cosine.csv")
 rq2_llm_df <- read.csv("./data/PT6_prompt/rq2_flat_df-PT6.csv")
 
 
@@ -27,32 +26,8 @@ shared_cols <- intersect(names(rq1_llm_df), names(rq2_llm_df))
 # Full join the two dataframes
 full_llm_df <- full_join(rq1_llm_df, rq2_llm_df, by=c(shared_cols))
 
-
-# NOTE: we are manually adding the values here because they are not included in
-# the .csv-files. Delete this if we fix the raw input files.
-
-# Cosine execution time per dataset
-#AMINA -> 0.01
-#BTHS -> 0.01
-#HW -> 0.01
-#MOZILLA -> 0
-
-full_cosine_df <- rq1_cosine_df %>%
-  # While the Cosine df 
-  mutate(
-    # bang-bang "!!" unquotes the expression (otherwise column names keep -> ")
-    !!RQ2_METRICS[1] := case_when(
-      dataset == "AMINA" ~ 0.01,
-      dataset == "BTHS" ~ 0.01,
-      dataset == "HW" ~ 0.01,
-      dataset == "MOZILLA" ~ 0,
-    ),
-    !!RQ2_METRICS[2] := NA_real_
-  )
-
-# Create the full LLM table for RQ1 and RQ2
-full_df <- bind_rows(full_llm_df, full_cosine_df) %>%
-  arrange(across(1:3))
+# Sort the table
+full_df <- arrange(full_llm_df, across(1:3))
 
 
 # Expand the metrics columns to "true" long format
